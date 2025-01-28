@@ -38,6 +38,14 @@ export const announcements = [
       image: "/placeholder.svg?height=200&width=200",
       linkedin: "https://www.linkedin.com/in/janesmith",
     },
+    {
+      name: "Abubakkar Siddiq .N",
+      role: "Advisor",
+      department: "Information technology",
+      year: "3rd Year",
+      image: "/placeholder.svg?height=200&width=200",
+      linkedin: "https://www.linkedin.com/in/abubakkar-siddiq-165012267/",
+    },
     // Add more team members...
   ]
   
