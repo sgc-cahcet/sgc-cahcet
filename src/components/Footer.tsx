@@ -38,13 +38,14 @@ const Footer = () => {
           <div className="w-full md:w-1/3">
             <h4 className="text-xl font-semibold mb-4 font-poppins">Connect With Us</h4>
             <div className="flex space-x-4">
-              <a href="https://www.instagram.com/studentsguidancecell" className="hover:text-blue-500">
+
+              <a href="https://www.instagram.com/studentsguidancecell" className="hover:text-pink-800">
                 <Instagram />
               </a>
-              <a href="https://www.linkedin.com/in/studentguidancecell-cahcet" className="hover:text-blue-500">
+              <a href="https://www.linkedin.com/in/studentguidancecell-cahcet/" className="hover:text-blue-500">
                 <Linkedin />
               </a>
-              <a href="https://github.com/sgc-cahcet" className="hover:text-blue-500">
+              <a href="https://github.com/sgc-cahcet" className="hover:text-gray-700">
                 <Github />
               </a>
             </div>

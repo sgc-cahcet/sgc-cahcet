@@ -21,7 +21,7 @@ export default function Alumni() {
           animate={{ opacity: 1, y: 0 }}
           className="neo-brutalism-white dark:neo-brutalism-dark p-6 rounded-lg"
         >
-          <h2 className="text-3xl font-bold mb-4 font-poppins">Class of {year.year}</h2>
+          <h2 className="text-3xl font-bold mb-4 font-poppins">Batch of {year.year}</h2>
           <div className="overflow-x-auto">
             <table className="w-full">
               <thead>

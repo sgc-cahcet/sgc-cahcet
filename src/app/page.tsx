@@ -74,7 +74,7 @@ export default function Home() {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -50 }}
-            className="bg-yellow-100 dark:bg-yellow-900 p-4 rounded-md"
+            className="bg-yellow-100 dark:bg-blue-400 p-4 rounded-md"
           >
             <h3 className="text-xl font-semibold mb-2 font-poppins">{announcements[currentAnnouncement].title}</h3>
             <p>{announcements[currentAnnouncement].content}</p>

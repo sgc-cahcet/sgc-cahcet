@@ -24,10 +24,10 @@ export default function Team() {
               alt={member.name}
               className="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-yellow-400"
             />
-            <h2 className="text-2xl font-bold mb-2">{member.name}</h2>
+            <h2 className="text-2xl font-bold mb-2 text-black">{member.name}</h2>
             <p className="text-lg text-gray-600 mb-1">{member.role}</p>
             <p className="text-sm text-gray-500 mb-4">
-              {member.department}, {member.year}
+              {member.year}, {member.department}
             </p>
             {member.linkedin && (
               <a

@@ -51,13 +51,25 @@ export const announcements = [
   
   export const alumni = [
     {
-      year: "2022",
+      year: "2024",
       members: [
         {
-          name: "Alice Johnson",
+          name: "Mohammed Rafique A",
           department: "Computer Science",
-          currentPosition: "Software Engineer at Tech Corp",
-          contact: "https://www.linkedin.com/in/alicejohnson",
+          currentPosition: "Software Engineer ",
+          contact: "https://www.linkedin.com/in/mdrafique",
+        },
+        // Add more alumni...
+      ],
+    },
+    {
+      year: "2023",
+      members: [
+        {
+          name: "Mohanapriya",
+          department: "Computer Science",
+          currentPosition: "TSE at Zoho ",
+          contact: "https://www.linkedin.com/in/mohanapriya-vigneshwaran-2002b61b7/",
         },
         // Add more alumni...
       ],
@@ -86,6 +98,13 @@ export const announcements = [
       date: "2023-05-13",
       image: "/placeholder.svg?height=300&width=500",
       link: "https://www.linkedin.com/posts/studentguidancecell-cahcet_git-github-web-activity-7115371030180728832-JnyA?utm_source=share&utm_medium=member_desktophttps://www.linkedin.com/posts/studentguidancecell-cahcet_techworkshop-studentempowerment-buildingthefuture-activity-7115733994557607936-FYGY?utm_source=share&utm_medium=member_desktop",
+    },
+    {
+      name: "Durg Awarness Program",
+      description: "We conducted a program to make people aware about the durgs and its side effects.",
+      date: "2024-11-15",
+      image: "",
+      link: "https://www.linkedin.com/posts/studentguidancecell-cahcet_substanceawareness-mentalhealthmatters-prevention-activity-7247646017846722561-R5ht?utm_source=share&utm_medium=member_desktop",
     },
     // Add more events...
   ]
