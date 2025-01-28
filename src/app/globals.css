@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 255, 255, 224;
+  --background-end-rgb: 255, 255, 224;
+}
+
+.dark {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 50;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+  font-family: var(--font-inter), sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-poppins), sans-serif;
+}
+
+.custom-cursor {
+  width: 32px;
+  height: 32px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: difference;
+}
+
+.dark .custom-cursor {
+  border-color: #fff;
+}
+
+.neo-brutalism-shadow {
+  box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 1);
+}
+
+.neo-brutalism-white {
+  background-color: #ffffff;
+  border: 4px solid #000000;
+  box-shadow: 8px 8px 0px #000000;
+}
+
+.neo-brutalism-dark {
+  background-color: #1a202c;
+  border: 4px solid #ffffff;
+  box-shadow: 8px 8px 0px #ffffff;
+}
+
+@keyframes neon-glow {
+  0% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0
+      100px #ff00de, 0 0 150px #ff00de;
+  }
+  100% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 35px #ff00de, 0 0 40px #ff00de, 0 0
+      50px #ff00de, 0 0 75px #ff00de;
+  }
+}
+
+.neon-text {
+  animation: neon-glow 1.5s ease-in-out infinite alternate;
+}
+
