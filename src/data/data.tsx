@@ -65,6 +65,13 @@ export const announcements = [
       image: "/placeholder.svg?height=300&width=500",
       link: "/events/tech-symposium-2023",
     },
+    {
+      name: "Durg Awarness Program",
+      description: "We conducted a program to make people aware about the durgs and its side effects.",
+      date: "2024-11-15",
+      image: "",
+      link: "https://www.linkedin.com/posts/studentguidancecell-cahcet_substanceawareness-mentalhealthmatters-prevention-activity-7247646017846722561-R5ht?utm_source=share&utm_medium=member_desktop",
+    },
     // Add more events...
   ]
   
