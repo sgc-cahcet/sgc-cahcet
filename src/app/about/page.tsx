@@ -27,7 +27,7 @@ export default function About() {
         <p className="mb-4 text-black">
         SGC, established in 2010 by Tanveer Ahmed and Mohammed Imran, is dedicated to empowering students professionally. Grounded in the mantra 'of, for, and by the students,' SGC organizes diverse events, unveiling hidden talents. Through these initiatives, it nurtures skills, ensuring remarkable career outcomes and aspiring to elevate students' professionalism to new heights.
         </p>
-        <p>
+        <p className="text-black">
           Our dedicated team of faculty members, alumni, and student volunteers work tirelessly to create a supportive
           environment where every student can thrive academically, professionally, and personally.
         </p>

@@ -51,13 +51,25 @@ export const announcements = [
   
   export const alumni = [
     {
-      year: "2022",
+      year: "2024",
       members: [
         {
-          name: "Alice Johnson",
+          name: "Mohammed Rafique A",
           department: "Computer Science",
-          currentPosition: "Software Engineer at Tech Corp",
-          contact: "https://www.linkedin.com/in/alicejohnson",
+          currentPosition: "Software Engineer ",
+          contact: "https://www.linkedin.com/in/mdrafique",
+        },
+        // Add more alumni...
+      ],
+    },
+    {
+      year: "2023",
+      members: [
+        {
+          name: "Mohanapriya",
+          department: "Computer Science",
+          currentPosition: "TSE at Zoho ",
+          contact: "https://www.linkedin.com/in/mohanapriya-vigneshwaran-2002b61b7/",
         },
         // Add more alumni...
       ],
