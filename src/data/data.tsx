@@ -20,23 +20,23 @@ export const announcements = [
       department: "Computer Science",
       year: "4th Year",
       image: "/placeholder.svg?height=200&width=200",
-      linkedin: "https://www.linkedin.com/in/johndoe",
+      linkedin: "https://www.linkedin.com/in/",
     },
     {
       name: "Zayd Bilal",
       role: "Vice President",
       department: "Information Technology",
-      year: "4rd Year",
+      year: "4th Year",
       image: "/placeholder.svg?height=200&width=200",
-      linkedin: "https://www.linkedin.com/in/janesmith",
+      linkedin: "https://www.linkedin.com/in/",
     },
     {
       name: "Sneha",
       role: "Vice President",
       department: "Computer Science",
-      year: "4rd Year",
+      year: "4th Year",
       image: "/placeholder.svg?height=200&width=200",
-      linkedin: "https://www.linkedin.com/in/janesmith",
+      linkedin: "https://www.linkedin.com/in/",
     },
     {
       name: "Abubakkar Siddiq .N",
@@ -45,6 +45,14 @@ export const announcements = [
       year: "3rd Year",
       image: "/placeholder.svg?height=200&width=200",
       linkedin: "https://www.linkedin.com/in/abubakkar-siddiq-165012267/",
+    },
+    {
+      name: "Dhanush Kandhan",
+      role: "Member",
+      department: "Information technology",
+      year: "3rd Year",
+      image: "https://res.cloudinary.com/dwir71gi2/image/upload/v1721315692/dhanush_cnj3gi.jpg",
+      linkedin: "https://www.linkedin.com/in/dhanushkandhan/",
     },
     // Add more team members...
   ]
@@ -93,7 +101,7 @@ export const announcements = [
       link: "https://www.linkedin.com/posts/studentguidancecell-cahcet_techworkshop-studentempowerment-buildingthefuture-activity-7115733994557607936-FYGY?utm_source=share&utm_medium=member_desktop",
     },
     {
-      name: " git&GitHub.. 2023",
+      name: "Git & Web Development Workshop 2023",
       description: "Hey Connections...We are very happy to share that, the Day 1 of the Workshop completed Successfully today.✨ The students have learnt the basics of Web development and also how to use the git&GitHub..🎉",
       date: "2023-05-13",
       image: "/placeholder.svg?height=300&width=500",
