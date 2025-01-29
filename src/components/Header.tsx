@@ -11,6 +11,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false)
   const { theme, setTheme } = useTheme()
   const [mounted, setMounted] = useState(false)
+  const [activeSubmenu, setActiveSubmenu] = useState<string | null>(null)
 
   // Handle mounting state
   useEffect(() => {
@@ -41,38 +42,62 @@ const Header = () => {
         </Link>
         <nav className="hidden md:flex space-x-4">
           {menuItems.map((item) => (
-            <div key={item.name} className="relative group">
-              <Link href={item.href} className="hover:text-blue-500 transition-colors">
+            <div 
+              key={item.name} 
+              className="relative group"
+              onMouseEnter={() => setActiveSubmenu(item.name)}
+              onMouseLeave={() => setActiveSubmenu(null)}
+            >
+              <Link 
+                href={item.href} 
+                className="hover:text-blue-500 transition-colors duration-200 py-2 px-3 rounded-md hover:bg-gray-100 dark:hover:bg-gray-700"
+              >
                 <span>{item.name}</span>
               </Link>
               {item.submenu && (
-                <div className="absolute left-0 mt-2 w-48 bg-white dark:bg-gray-700 rounded-md shadow-lg hidden group-hover:block neo-brutalism-white dark:neo-brutalism-dark">
-                  {item.submenu.map((subitem) => (
-                    <Link
-                      key={subitem.name}
-                      href={subitem.href}
-                      className="block px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-blue-500 hover:text-white"
+                <AnimatePresence>
+                  {activeSubmenu === item.name && (
+                    <motion.div
+                      initial={{ opacity: 0, y: -10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: -10 }}
+                      transition={{ duration: 0.2 }}
+                      className="absolute left-0 mt-2 w-48 bg-white dark:bg-gray-700 rounded-md shadow-lg overflow-hidden neo-brutalism-white dark:neo-brutalism-dark"
                     >
-                      {subitem.name}
-                    </Link>
-                  ))}
-                </div>
+                      {item.submenu.map((subitem) => (
+                        <motion.div
+                          key={subitem.name}
+                          initial={{ x: -10, opacity: 0 }}
+                          animate={{ x: 0, opacity: 1 }}
+                          transition={{ duration: 0.2 }}
+                        >
+                          <Link
+                            href={subitem.href}
+                            className="block px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-blue-500 hover:text-white transition-colors duration-200"
+                          >
+                            {subitem.name}
+                          </Link>
+                        </motion.div>
+                      ))}
+                    </motion.div>
+                  )}
+                </AnimatePresence>
               )}
             </div>
           ))}
         </nav>
         <div className="flex items-center">
-          {mounted && ( // Only render theme toggle when mounted
+          {mounted && (
             <button 
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")} 
-              className="mr-4"
+              className="mr-4 p-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-200"
               aria-label={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
             >
               {theme === "dark" ? <Sun /> : <Moon />}
             </button>
           )}
           <button 
-            className="md:hidden" 
+            className="md:hidden p-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-200" 
             onClick={() => setIsOpen(!isOpen)}
             aria-label="Toggle menu"
           >
@@ -86,24 +111,25 @@ const Header = () => {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
+            transition={{ duration: 0.2 }}
             className="md:hidden mt-4"
           >
             {menuItems.map((item) => (
               <div key={item.name}>
                 <Link
                   href={item.href}
-                  className="block py-2 hover:text-blue-500 transition-colors"
+                  className="block py-2 px-4 hover:text-blue-500 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-200 rounded-md"
                   onClick={() => setIsOpen(false)}
                 >
                   {item.name}
                 </Link>
                 {item.submenu && (
-                  <div className="pl-4">
+                  <div className="pl-4 space-y-1">
                     {item.submenu.map((subitem) => (
                       <Link
                         key={subitem.name}
                         href={subitem.href}
-                        className="block py-2 hover:text-blue-500 transition-colors"
+                        className="block py-2 px-4 hover:text-blue-500 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-200 rounded-md"
                         onClick={() => setIsOpen(false)}
                       >
                         {subitem.name}
@@ -120,4 +146,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Header;

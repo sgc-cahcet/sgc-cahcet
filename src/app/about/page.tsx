@@ -25,7 +25,8 @@ export default function About() {
         />
         <h2 className="text-2xl font-bold mb-4 text-black">Our Story</h2>
         <p className="mb-4 text-black">
-        SGC, established in 2010 by Tanveer Ahmed and Mohammed Imran, is dedicated to empowering students professionally. Grounded in the mantra 'of, for, and by the students,' SGC organizes diverse events, unveiling hidden talents. Through these initiatives, it nurtures skills, ensuring remarkable career outcomes and aspiring to elevate students' professionalism to new heights.
+        SGC established in 2010 by Tanveer Ahmed and Mohammed Imran, is dedicated to empowering students professionally. 
+        Grounded in the mantra <b><i>of, for, and by the students</i></b>, SGC organizes diverse events, unveiling hidden talents. Through these initiatives, it nurtures skills, ensuring remarkable career outcomes and aspiring to elevate every student professionalism to new heights.
         </p>
         <p className="text-black">
           Our dedicated team of faculty members, alumni, and student volunteers work tirelessly to create a supportive
@@ -48,16 +49,16 @@ export default function About() {
         />
         <h2 className="text-2xl font-bold mb-4 text-black">About Our College</h2>
         <p className="mb-4 text-black">
-          C.Abdul Hakeem College Of Engineering And Technology has been a beacon of excellence in education since 1998. With a rich
+          <b>C.Abdul Hakeem College Of Engineering And Technology</b> has been a beacon of excellence in education since 1998. With a rich
           history of academic achievements and a forward-looking approach to education, our college has consistently
           ranked among the top institutions in the country.
         </p>
-        <p className="text-black">
+        <p className="mb-4 text-black">
           A well-established and well-organized College of Engineering is the desired destination of vast majority of students.
           One such role model of a college is located at a distance of 100 kms from Anna International Airport, Chennai and at 4 kms
           from Arcot, the capital of Nawabs who ruled one-fourth of South India. Right from the year of its inception, the college is consistently producing scores of first class graduates, scores of graduates with high distinction and graduates with University Rank or other academic credentials.
         </p>
-        <p className="text-black">
+        <p className="mb-4 text-black">
           We pride ourselves on our state-of-the-art facilities, distinguished faculty, and a curriculum that balances
           theoretical knowledge with practical skills. Our college is committed to nurturing not just successful
           professionals, but also responsible citizens who can contribute meaningfully to society.
