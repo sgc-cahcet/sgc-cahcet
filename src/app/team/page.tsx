@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { teamMembers } from "../../data/data"
+import { teamMembers } from "../../data/team_data"
 import { Linkedin } from "lucide-react"
 
 export default function Team() {
