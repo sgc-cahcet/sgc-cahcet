@@ -22,7 +22,7 @@ export interface TeamMember {
       department: "Information Technology",
       year: "4th Year",
       image: "/placeholder.svg?height=200&width=200",
-      linkedin: "https://www.linkedin.com/in/",
+      linkedin: "https://www.linkedin.com/in/zaid-bilal-347473247",
     },
     {
       name: "Sneha",
