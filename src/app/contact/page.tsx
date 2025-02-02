@@ -48,7 +48,7 @@ export default function Contact() {
             <a href="https://www.linkedin.com/in/studentguidancecell-cahcet/" className="text-blue-800 hover:text-blue-900">
               <Linkedin size={24} />
             </a>
-            <a href="https://github.com/Students-Guidance-Cell" className="text-black hover:text-gray-800">
+            <a href="https://github.com/sgc-cahcet/" className="text-black hover:text-gray-800">
               <Github size={24} />
             </a>
           </div>
