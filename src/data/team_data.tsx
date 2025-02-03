@@ -1,3 +1,4 @@
+//Important Instructions: Add the team members with the following format
 export interface TeamMember {
     name: string;
     role: string;
@@ -12,7 +13,7 @@ export interface TeamMember {
       name: "Yumnah Safiya",
       role: "President",
       department: "Computer Science",
-      year: "4th Year",
+      year: "IV",
       image: "/placeholder.svg?height=200&width=200",
       linkedin: "https://www.linkedin.com/in/",
     },
@@ -20,7 +21,7 @@ export interface TeamMember {
       name: "Zayd Bilal",
       role: "Vice President",
       department: "Information Technology",
-      year: "4th Year",
+      year: "IV",
       image: "/placeholder.svg?height=200&width=200",
       linkedin: "https://www.linkedin.com/in/zaid-bilal-347473247",
     },
@@ -28,7 +29,7 @@ export interface TeamMember {
       name: "Sneha",
       role: "Vice President",
       department: "Computer Science",
-      year: "4th Year",
+      year: "IV",
       image: "/placeholder.svg?height=200&width=200",
       linkedin: "https://www.linkedin.com/in/",
     },
@@ -36,7 +37,7 @@ export interface TeamMember {
       name: "Abubakkar Siddiq .N",
       role: "Advisor",
       department: "Information technology",
-      year: "3rd Year",
+      year: "III",
       image: "/placeholder.svg?height=200&width=200",
       linkedin: "https://www.linkedin.com/in/abubakkar-siddiq-165012267/",
     },
@@ -44,9 +45,9 @@ export interface TeamMember {
       name: "Dhanush Kandhan",
       role: "Member",
       department: "Information technology",
-      year: "3rd Year",
+      year: "III",
       image: "https://res.cloudinary.com/dwir71gi2/image/upload/v1721315692/dhanush_cnj3gi.jpg",
       linkedin: "https://www.linkedin.com/in/dhanushkandhan/",
     },
-    // Add more team members...
+    // Add more team members here...
   ];
