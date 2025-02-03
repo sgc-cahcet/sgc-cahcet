@@ -65,5 +65,13 @@ export interface TeamMember {
       image: "/placeholder.svg?height=200&width=200",
       linkedin: "https://www.linkedin.com/in/",
     },
+    {
+      name: "Samreen Humera",
+      role: "Member",
+      department: "Artificial Intelligence and Data Science",
+      year: "III",
+      image: "/placeholder.svg?height=200&width=200",
+      linkedin: "https://www.linkedin.com/in/samreen-humera-546223294",
+    },  
     // Add more team members here...
   ];
