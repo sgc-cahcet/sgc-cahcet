@@ -1,8 +1,67 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { teamMembers } from "../../data/team_data"
-import { Linkedin } from "lucide-react"
+import { motion } from "framer-motion";
+import { teamMembers } from "../../data/team_data";
+import { Linkedin } from "lucide-react";
+
+const getYearSuffix = (year: string) => {
+  switch (year) {
+    case "I":
+      return "st"
+    case "II":
+      return "nd"
+    case "III":
+      return "rd"
+    case "IV":
+      return "th"
+    default:
+      return ""
+  }
+}
+
+const getRolePriority = (role: string) => {
+  switch (role) {
+    case "President":
+      return 1
+    case "Vice President":
+      return 2
+    case "Advisor":
+      return 3
+    default:
+      return 4
+  }
+}
+
+const getYearPriority = (year: string) => {
+  switch (year) {
+    case "IV":
+      return 1
+    case "III":
+      return 2
+    case "II":
+      return 3
+    case "I":
+      return 4
+    default:
+      return 5
+  }
+}
+
+const sortedTeamMembers = [...teamMembers].sort((a, b) => {
+  // Here, we sort the team members based on their role, sort by role priority...
+  const rolePriorityDiff = getRolePriority(a.role) - getRolePriority(b.role)
+  if (rolePriorityDiff !== 0) return rolePriorityDiff
+
+  // If same role (like Vice President), sort by name
+  if (a.role === b.role) return a.name.localeCompare(b.name)
+
+  // For members, sort by year first
+  const yearPriorityDiff = getYearPriority(a.year) - getYearPriority(b.year)
+  if (yearPriorityDiff !== 0) return yearPriorityDiff
+
+  // If same year, sort alphabetically
+  return a.name.localeCompare(b.name)
+})
 
 export default function Team() {
   return (
@@ -11,7 +70,7 @@ export default function Team() {
         Our Team
       </motion.h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {teamMembers.map((member, index) => (
+        {sortedTeamMembers.map((member, index) => (
           <motion.div
             key={member.name}
             initial={{ opacity: 0, y: 50 }}
@@ -27,7 +86,8 @@ export default function Team() {
             <h2 className="text-2xl font-bold mb-2 text-black">{member.name}</h2>
             <p className="text-lg text-gray-600 mb-1">{member.role}</p>
             <p className="text-sm text-gray-500 mb-4">
-              {member.year}, {member.department}
+              {member.year}
+              <sup>{getYearSuffix(member.year)}</sup> Year, {member.department}
             </p>
             {member.linkedin && (
               <a
@@ -45,4 +105,3 @@ export default function Team() {
     </div>
   )
 }
-
