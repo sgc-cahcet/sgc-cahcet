@@ -49,5 +49,13 @@ export interface TeamMember {
       image: "https://res.cloudinary.com/dwir71gi2/image/upload/v1721315692/dhanush_cnj3gi.jpg",
       linkedin: "https://www.linkedin.com/in/dhanushkandhan/",
     },
+    {
+      name: "Mukesh",
+      role: "Member",
+      department: "Artificial intelligence and Data science",
+      year: "III",
+      image: "/placeholder.svg?height=200&width=200",
+      linkedin: "https://www.linkedin.com/in/",
+    },
     // Add more team members here...
   ];
