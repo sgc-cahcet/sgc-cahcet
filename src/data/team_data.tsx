@@ -47,7 +47,7 @@ export interface TeamMember {
       department: "Computer Science",
       year: "IV",
       image: "/placeholder.svg?height=200&width=200",
-      linkedin: "https://www.linkedin.com/in/priya-narayanan-a64383250",
+      linkedin: "https://www.linkedin.com/in/priya-narayanan-a64383250/",
     },
     {
       name: "Dhanush Kandhan",
