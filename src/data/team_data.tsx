@@ -42,6 +42,14 @@ export interface TeamMember {
       linkedin: "https://www.linkedin.com/in/abubakkar-siddiq-165012267/",
     },
     {
+      name: "Priya Narayanan",
+      role: "Member",
+      department: "Computer Science",
+      year: "IV",
+      image: "/placeholder.svg?height=200&width=200",
+      linkedin: "https://www.linkedin.com/in/priya-narayanan-a64383250",
+    },
+    {
       name: "Dhanush Kandhan",
       role: "Member",
       department: "Information technology",
