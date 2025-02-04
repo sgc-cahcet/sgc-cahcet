@@ -18,9 +18,57 @@ export const alumni = [
       members: [
         {
           name: "Mohammed Rafique A",
-          department: "Computer Science",
-          currentPosition: "Software Engineer ",
+          department: "CSE",
+          currentPosition: "Software Engineer",
           contact: "https://www.linkedin.com/in/mdrafique",
+        },
+        {
+          name: "Jeya Murugan L",
+          department: "CSE",
+          currentPosition: "Full Stack Developer",
+          contact: "https://www.linkedin.com/in/jeyamuruganl/",
+        },
+        {
+          name: "Prakash K",
+          department: "IT",
+          currentPosition: "Software Engineer",
+          contact: "https://www.linkedin.com/in/prakashkbtech/",
+        },
+        {
+          name: "Vahitha Hafeez",
+          department: "CSE",
+          currentPosition: "Software Engineer",
+          contact: "https://www.linkedin.com/in/vahitha-hafeez-912740212/",
+        },
+        {
+          name: "Sathakathulla S ",
+          department: "IT",
+          currentPosition: "Network Engineer at Movate",
+          contact: "https://www.linkedin.com/in/sathakathulla-s/",
+        },
+        {
+          name: "Gnanasekaran B",
+          department: "IT",
+          currentPosition: "MTS at Zoho Corp",
+          contact: "https://www.linkedin.com/in/gnana-sekaran/",
+        },
+        {
+          name: "Yuvaraj A.D",
+          department: "IT",
+          currentPosition: "Java Developer",
+          contact: "https://www.linkedin.com/in/yuvaraj-a-d/",
+        },
+        {
+          name: "Gokul M",
+          department: "IT",
+          currentPosition: "Software Developer",
+          contact: "https://www.linkedin.com/in/gokul-murugesan-btech/",
+        },
+        {
+          name: "Shewetha V.V.",
+          department: "CSE",
+          currentPosition: "MBA at CAHCET SOM",
+          contact: "https://www.linkedin.com/in/shwetha-v-v-31b556224/",
         },
         // Add more alumni...
       ],

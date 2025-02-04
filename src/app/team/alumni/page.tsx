@@ -8,21 +8,23 @@ import { useState } from "react";
 export default function Alumni() {
   const [searchQuery, setSearchQuery] = useState("");
 
-  // Filter alumni data based on search query
   const filteredAlumni = alumni.map(year => ({
     ...year,
-    members: year.members.filter(member => {
-      const searchFields = [
-        member.name,
-        member.department,
-        member.currentPosition,
-        year.year.toString()
-      ].map(field => field.toLowerCase());
-      
-      const query = searchQuery.toLowerCase();
-      
-      return searchFields.some(field => field.includes(query));
-    })
+    members: year.members
+      .filter(member => {
+        const searchFields = [
+          member.name,
+          member.department,
+          member.currentPosition,
+          year.year.toString()
+        ].map(field => field.toLowerCase());
+        
+        const query = searchQuery.toLowerCase();
+        
+        return searchFields.some(field => field.includes(query));
+      })
+
+      .sort((a, b) => a.name.localeCompare(b.name))
   })).filter(year => year.members.length > 0);
 
   return (

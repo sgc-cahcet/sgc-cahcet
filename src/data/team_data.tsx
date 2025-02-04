@@ -49,21 +49,13 @@ export interface TeamMember {
       image: "https://res.cloudinary.com/dwir71gi2/image/upload/v1721315692/dhanush_cnj3gi.jpg",
       linkedin: "https://www.linkedin.com/in/dhanushkandhan/",
     },
-      {
+    {
       name: "Harish G",
       role: "Member",
       department: "Electrical and Electronics Engineering",
       year: "III",
-    
-      linkedin: "https://www.linkedin.com/in/harish-g-a4b0b8294/",
-    },
-    {
-      name: "Mukesh",
-      role: "Member",
-      department: "Artificial intelligence and Data science",
-      year: "III",
       image: "/placeholder.svg?height=200&width=200",
-      linkedin: "https://www.linkedin.com/in/",
+      linkedin: "https://www.linkedin.com/in/harish-g-a4b0b8294/",
     },
     {
       name: "Samreen Humera",
