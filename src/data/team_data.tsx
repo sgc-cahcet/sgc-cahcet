@@ -72,6 +72,14 @@ export interface TeamMember {
       year: "III",
       image: "/placeholder.svg?height=200&width=200",
       linkedin: "https://www.linkedin.com/in/samreen-humera-546223294",
+    }, 
+      {
+      name: "Abishek P",
+      role: "Member",
+      department: "Mechanical Engineering",
+      year: "III",
+      image: "/placeholder.svg?height=200&width=200",
+      linkedin: "https://www.linkedin.com/in/lovely-gameing-155535258",
     },  
     // Add more team members here...
   ];
