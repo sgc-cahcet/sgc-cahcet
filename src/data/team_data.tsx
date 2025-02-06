@@ -34,12 +34,12 @@ export interface TeamMember {
       linkedin: "https://www.linkedin.com/in/",
     },
     {
-      name: "Abubakkar Siddiq .N",
+      name: "Abubakkar Siddiq",
       role: "Advisor",
       department: "Information technology",
       year: "III",
       image: "/placeholder.svg?height=200&width=200",
-      linkedin: "https://www.linkedin.com/in/abubakkar-siddiq-165012267/",
+      linkedin: "https://www.linkedin.com/in/abubakkarsiddiq17/",
     },
     {
       name: "Priya Narayanan",
