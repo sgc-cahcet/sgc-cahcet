@@ -73,5 +73,13 @@ export interface TeamMember {
       image: "/placeholder.svg?height=200&width=200",
       linkedin: "https://www.linkedin.com/in/samreen-humera-546223294",
     },  
-    // Add more team members here...
+    {
+      name: "Abdul Bari",
+      role: "Member",
+      department: "Computer Science",
+      year: "III",
+      image: "/placeholder.svg?height=200&width=200",
+      linkedin: "https://www.linkedin.com/in/abdul-bari-3144ba271",
+    },
+      // Add more team members here...
   ];
