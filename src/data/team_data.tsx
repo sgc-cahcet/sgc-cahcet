@@ -54,7 +54,7 @@ export interface TeamMember {
       role: "Member",
       department: "Information technology",
       year: "III",
-      image: "https://res.cloudinary.com/dwir71gi2/image/upload/v1721315692/dhanush_cnj3gi.jpg",
+      image: "/placeholder.svg?height=200&width=200",
       linkedin: "https://www.linkedin.com/in/dhanushkandhan/",
     },
     {
@@ -72,22 +72,22 @@ export interface TeamMember {
       year: "III",
       image: "/placeholder.svg?height=200&width=200",
       linkedin: "https://www.linkedin.com/in/samreen-humera-546223294",
-    }, 
-    {
-      name: "Abishek P",
-      role: "Member",
-      department: "Mechanical Engineering",
-      year: "III",
-      image: "/placeholder.svg?height=200&width=200",
-      linkedin: "https://www.linkedin.com/in/lovely-gameing-155535258",
-    },
-    {
-      name: "Abdul Bari N",
-      role: "Member",
-      department: "Computer Science",
-      year: "III",
-      image: "https://media.licdn.com/dms/image/v2/D5603AQGoZViDDXFATA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1713632118344?e=1744243200&v=beta&t=1YGc7k251Lwm1JTMSzLq4wYDTX0otGu0zlfSIanYC8E",
-      linkedin: "https://www.linkedin.com/in/abdul-bari-3144ba271",
-    },  
+}, 
+{
+  name: "Abishek P",
+  role: "Member",
+  department: "Mechanical Engineering",
+  year: "III",
+  image: "/placeholder.svg?height=200&width=200",
+  linkedin: "https://www.linkedin.com/in/lovely-gameing-155535258",
+},
+{
+  name: "Abdul Bari N",
+  role: "Member",
+  department: "Computer Science",
+  year: "III",
+  image: "https://media.licdn.com/dms/image/v2/D5603AQGoZViDDXFATA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1713632118344?e=1744243200&v=beta&t=1YGc7k251Lwm1JTMSzLq4wYDTX0otGu0zlfSIanYC8E",
+  linkedin: "https://www.linkedin.com/in/abdul-bari-3144ba271",
+},  
     // Add more team members here...
-  ];
+];
