@@ -88,6 +88,14 @@ export interface TeamMember {
       year: "III",
       image: "https://media.licdn.com/dms/image/v2/D5603AQGoZViDDXFATA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1713632118344?e=1744243200&v=beta&t=1YGc7k251Lwm1JTMSzLq4wYDTX0otGu0zlfSIanYC8E",
       linkedin: "https://www.linkedin.com/in/abdul-bari-3144ba271",
-    },  
+    },
+    {
+      name: "Tutorial",
+      role: "Member",
+      department: "Computer Science",
+      year: "III",
+      image: "https://media.licdn.com/dms/image/v2/D5603AQGoZViDDXFATA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1713632118344?e=1744243200&v=beta&t=1YGc7k251Lwm1JTMSzLq4wYDTX0otGu0zlfSIanYC8E",
+      linkedin: "https://www.linkedin.com/in/abdul-bari-3144ba271",
+    },   
     // Add more team members here...
   ];
