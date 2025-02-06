@@ -73,13 +73,21 @@ export interface TeamMember {
       image: "/placeholder.svg?height=200&width=200",
       linkedin: "https://www.linkedin.com/in/samreen-humera-546223294",
     }, 
-      {
+    {
       name: "Abishek P",
       role: "Member",
       department: "Mechanical Engineering",
       year: "III",
       image: "/placeholder.svg?height=200&width=200",
       linkedin: "https://www.linkedin.com/in/lovely-gameing-155535258",
+    },
+    {
+      name: "Abdul Bari N",
+      role: "Member",
+      department: "Computer Science",
+      year: "III",
+      image: "/placeholder.svg?height=200&width=200",
+      linkedin: "https://www.linkedin.com/in/abdul-bari-3144ba271",
     },  
     // Add more team members here...
   ];
