@@ -86,7 +86,7 @@ export interface TeamMember {
       role: "Member",
       department: "Computer Science",
       year: "III",
-      image: "/placeholder.svg?height=200&width=200",
+      image: "https://media.licdn.com/dms/image/v2/D5603AQGoZViDDXFATA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1713632118344?e=1744243200&v=beta&t=1YGc7k251Lwm1JTMSzLq4wYDTX0otGu0zlfSIanYC8E",
       linkedin: "https://www.linkedin.com/in/abdul-bari-3144ba271",
     },  
     // Add more team members here...
