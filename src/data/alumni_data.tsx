@@ -79,7 +79,7 @@ export const alumni = [
         {
           name: "Mohanapriya",
           department: "Computer Science",
-          currentPosition: "TSE at Zoho ",
+          currentPosition: "TSE at Zoho Corp",
           contact: "https://www.linkedin.com/in/mohanapriya-vigneshwaran-2002b61b7/",
         },
         // Add more alumni...

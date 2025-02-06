@@ -48,18 +48,15 @@ const getYearPriority = (year: string) => {
 }
 
 const sortedTeamMembers = [...teamMembers].sort((a, b) => {
-  // Here, we sort the team members based on their role, sort by role priority...
+  // First, sort by role priority
   const rolePriorityDiff = getRolePriority(a.role) - getRolePriority(b.role)
   if (rolePriorityDiff !== 0) return rolePriorityDiff
 
-  // If same role (like Vice President), sort by name
-  if (a.role === b.role) return a.name.localeCompare(b.name)
-
-  // For members, sort by year first
+  // Then, sort by year priority
   const yearPriorityDiff = getYearPriority(a.year) - getYearPriority(b.year)
   if (yearPriorityDiff !== 0) return yearPriorityDiff
 
-  // If same year, sort alphabetically
+  // If same role and year, sort by name
   return a.name.localeCompare(b.name)
 })
 
