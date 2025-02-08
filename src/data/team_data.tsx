@@ -105,5 +105,14 @@ export interface TeamMember {
       image: "/placeholder.svg?height=200&width=200",
       linkedin: "https://www.linkedin.com/in/ruqyya-nazeene-907947292",
 }, 
+ {
+      name: "Kamali k",
+      role: "Member",
+      department: "Information Technology",
+      year: "III",
+      image: "/placeholder.svg?height=200&width=200",
+      linkedin: "https://www.linkedin.com/in/kamali-k-10b4722bb/",
+}, 
+      
     // Add more team members here...
 ];
