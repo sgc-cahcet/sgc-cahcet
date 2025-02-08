@@ -50,6 +50,14 @@ export interface TeamMember {
       linkedin: "https://www.linkedin.com/in/priya-narayanan-a64383250/",
     },
     {
+      name: "Thaseem M",
+      role: "Member",
+      department: "Computer Science",
+      year: "IV",
+      image: "/placeholder.svg?height=200&width=200",
+      linkedin: "https://www.linkedin.com/in/thaseem-m-6136b92a4",
+    },
+    {
       name: "Dhanush Kandhan",
       role: "Member",
       department: "Information technology",
