@@ -50,12 +50,12 @@ export interface TeamMember {
       linkedin: "https://www.linkedin.com/in/priya-narayanan-a64383250/",
     },
     {
-      name: "Thaseem M",
+      name: "Vallarasu J",
       role: "Member",
       department: "Computer Science",
       year: "IV",
       image: "/placeholder.svg?height=200&width=200",
-      linkedin: "https://www.linkedin.com/in/thaseem-m-6136b92a4",
+      linkedin: "https://www.linkedin.com/in/vallarasuj",
     },
     {
       name: "Dhanush Kandhan",
@@ -105,5 +105,22 @@ export interface TeamMember {
       image: "/placeholder.svg?height=200&width=200",
       linkedin: "https://www.linkedin.com/in/ruqyya-nazeene-907947292",
 }, 
-    // Add more team members here...
+ {
+      name: "Kamali K",
+      role: "Member",
+      department: "Information Technology",
+      year: "III",
+      image: "/placeholder.svg?height=200&width=200",
+      linkedin: "https://www.linkedin.com/in/kamali-k-10b4722bb/",
+}, 
+ {
+      name: "Thaseem M",
+      role: "Member",
+      department: "Computer Science",
+      year: "III",
+      image: "/placeholder.svg?height=200&width=200",
+      linkedin: "https://www.linkedin.com/in/thaseem-m-6136b92a4",
+}, 
+      
+   // Add more team members here...
 ];
