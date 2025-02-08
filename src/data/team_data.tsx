@@ -106,13 +106,21 @@ export interface TeamMember {
       linkedin: "https://www.linkedin.com/in/ruqyya-nazeene-907947292",
 }, 
  {
-      name: "Kamali k",
+      name: "Kamali K",
       role: "Member",
       department: "Information Technology",
       year: "III",
       image: "/placeholder.svg?height=200&width=200",
       linkedin: "https://www.linkedin.com/in/kamali-k-10b4722bb/",
 }, 
+ {
+      name: "Thaseem M",
+      role: "Member",
+      department: "Computer Science",
+      year: "III",
+      image: "/placeholder.svg?height=200&width=200",
+      linkedin: "https://www.linkedin.com/in/thaseem-m-6136b92a4",
+}, 
       
-    // Add more team members here...
+   // Add more team members here...
 ];
