@@ -117,7 +117,7 @@ export interface TeamMember {
       name: "Thaseem M",
       role: "Member",
       department: "Computer Science",
-      year: "III",
+      year: "IV",
       image: "/placeholder.svg?height=200&width=200",
       linkedin: "https://www.linkedin.com/in/thaseem-m-6136b92a4",
 }, 
