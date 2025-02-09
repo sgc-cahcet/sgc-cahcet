@@ -122,5 +122,11 @@ export interface TeamMember {
       linkedin: "https://www.linkedin.com/in/thaseem-m-6136b92a4",
 }, 
       
-   // Add more team members here...
-];
+{
+      name: "Sweatha S",
+      role: "Member",
+      department: "Computer Science",
+      year: "III",
+      image: "/placeholder.svg?height=200&width=200",
+      linkedin: "https://www.linkedin.com/in/sweatha-singaravelu-60710b294",
+}, ];
