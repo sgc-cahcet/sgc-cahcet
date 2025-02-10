@@ -54,7 +54,7 @@ export interface TeamMember {
       role: "Member",
       department: "Computer Science",
       year: "IV",
-      image: "/placeholder.svg?height=200&width=200",
+      image: "https://media.licdn.com/dms/image/v2/D5603AQEvmka9KURThg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728633428829?e=1744848000&v=beta&t=ZHewU7ZGTOY_Nsu1QH5BMlUBm9kX04AMCGPPVuQtjHY",
       linkedin: "https://www.linkedin.com/in/varun-mayilvaganan-662781234/",
     },
     {
