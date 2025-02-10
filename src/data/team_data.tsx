@@ -50,6 +50,14 @@ export interface TeamMember {
       linkedin: "https://www.linkedin.com/in/priya-narayanan-a64383250/",
     },
     {
+      name: "Varun M",
+      role: "Member",
+      department: "Computer Science",
+      year: "IV",
+      image: "/placeholder.svg?height=200&width=200",
+      linkedin: "https://www.linkedin.com/in/varun-mayilvaganan-662781234/",
+    },
+    {
       name: "Vallarasu J",
       role: "Member",
       department: "Computer Science",
