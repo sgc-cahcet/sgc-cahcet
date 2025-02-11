@@ -70,6 +70,18 @@ export const alumni = [
           currentPosition: "MBA at CAHCET SOM",
           contact: "https://www.linkedin.com/in/shwetha-v-v-31b556224/",
         },
+        {
+          name: "Almohammed Bilal N",
+          department: "CSE",
+          currentPosition: "DevOps Engineer",
+          contact: "https://www.linkedin.com/in/almohammed-bilal/",
+        },
+        {
+          name: "Lokesh V",
+          department: "CSE",
+          currentPosition: "Cloud Platform Engineer at E2E Networks",
+          contact: "https://www.linkedin.com/in/lokeshvasudevan/",
+        },
         // Add more alumni...
       ],
     },
@@ -105,6 +117,12 @@ export const alumni = [
           department: "CSE",
           currentPosition: "Software Engineer",
           contact: "https://www.linkedin.com/in/priyadharshini-s-94114022a/",
+        },
+        {
+          name: "Harun J",
+          department: "CSE",
+          currentPosition: "Software Tester",
+          contact: "https://www.linkedin.com/in/harunkhanj/",
         },
         // Add more alumni...
       ],
