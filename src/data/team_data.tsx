@@ -18,7 +18,7 @@ export interface TeamMember {
       linkedin: "https://www.linkedin.com/in/",
     },
     {
-      name: "Zayd Bilal",
+      name: "Zayd Bilal S.A",
       role: "Vice President",
       department: "Information Technology",
       year: "IV",
@@ -162,6 +162,14 @@ export interface TeamMember {
   year: "IV",
   image: "https://media.licdn.com/dms/image/v2/D5603AQGL3uTmX5rlAg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1695534376749?e=1744848000&v=beta&t=KDI4sovqxK9l6WefU-Yj4QN1DnlHgxkN94jcLRo_tac",
   linkedin: "https://www.linkedin.com/in/mohammed-zabeer-z/",
+}, 
+{
+  name: "Delhi Ganesh",
+  role: "Member",
+  department: "Information Technology",
+  year: "IV",
+  image: "/placeholder.svg?height=200&width=200",
+  linkedin: "https://www.linkedin.com/in/delhi-ganesh-4a76a9326",
 }, 
 
 ];
