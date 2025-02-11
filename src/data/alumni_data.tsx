@@ -77,10 +77,34 @@ export const alumni = [
       year: "2023",
       members: [
         {
-          name: "Mohanapriya",
-          department: "Computer Science",
+          name: "Mohanapriya V",
+          department: "CSE",
           currentPosition: "TSE at Zoho Corp",
           contact: "https://www.linkedin.com/in/mohanapriya-vigneshwaran-2002b61b7/",
+        },
+        {
+          name: "Sivapriya T",
+          department: "CSE",
+          currentPosition: "M.Tech at VIT Vellore",
+          contact: "https://www.linkedin.com/in/siva-priya-thirumalai2022/",
+        },
+        {
+          name: "Arun Srinivasan",
+          department: "IT",
+          currentPosition: "Software Enginner at Relevantz",
+          contact: "http://linkedin.com/in/arunsrinivasan03/",
+        },
+        {
+          name: "Mohamed Waseem B",
+          department: "CSE",
+          currentPosition: "Salesforce Associate at Pentacloud Consulting",
+          contact: "https://www.linkedin.com/in/mohamed-waseem-b-15a19a223/",
+        },
+        {
+          name: "Priyadharshini S",
+          department: "CSE",
+          currentPosition: "Software Engineer",
+          contact: "https://www.linkedin.com/in/priyadharshini-s-94114022a/",
         },
         // Add more alumni...
       ],

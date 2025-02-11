@@ -62,7 +62,7 @@ export interface TeamMember {
       role: "Member",
       department: "Computer Science",
       year: "IV",
-      image: "/placeholder.svg?height=200&width=200",
+      image: "https://media.licdn.com/dms/image/v2/D5603AQGY-w0SP8lfEA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1695486649217?e=1744848000&v=beta&t=jmiwaPfmy7k5XvwAsLFCfIWU84N1zXCNdnB7LT1vOZk",
       linkedin: "https://www.linkedin.com/in/vallarasuj",
     },
     {
@@ -145,4 +145,14 @@ export interface TeamMember {
       year: "III",
       image: "/placeholder.svg?height=200&width=200",
       linkedin: "https://www.linkedin.com/in/sweatha-singaravelu-60710b294",
-}, ];
+}, 
+{
+  name: "Mohammed Zabeer. Z",
+  role: "Member",
+  department: "Electrical & Electronics Engineering",
+  year: "IV",
+  image: "https://media.licdn.com/dms/image/v2/D5603AQGL3uTmX5rlAg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1695534376749?e=1744848000&v=beta&t=KDI4sovqxK9l6WefU-Yj4QN1DnlHgxkN94jcLRo_tac",
+  linkedin: "https://www.linkedin.com/in/mohammed-zabeer-z/",
+}, 
+
+];
