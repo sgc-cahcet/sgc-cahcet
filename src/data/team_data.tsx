@@ -121,6 +121,15 @@ export interface TeamMember {
       image: "/placeholder.svg?height=200&width=200",
       linkedin: "https://www.linkedin.com/in/ruqyya-nazeene-907947292",
 }, 
+      
+{
+  name: "Zaina Afreen A.P",
+  role: "Member",
+  department: "Computer Science",
+  year: "III",
+  image: "/placeholder.svg?height=200&width=200",
+  linkedin: "https://www.linkedin.com/in/",
+},
  {
       name: "Kamali K",
       role: "Member",
