@@ -171,5 +171,12 @@ export interface TeamMember {
   image: "/placeholder.svg?height=200&width=200",
   linkedin: "https://www.linkedin.com/in/delhi-ganesh-4a76a9326",
 }, 
-
+{
+    name:"Abdul Gaffoor Asjad M",
+    role:"Member",
+    department:"Computer Science",
+    year:"II",
+    image: "/placeholder.svg?height=200&width=200",
+    linkedin: "https://www.linkedin.com/in/abdul-gaffoor-asjad-b6b2412a6",
+}
 ];
