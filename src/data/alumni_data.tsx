@@ -124,6 +124,12 @@ export const alumni = [
           currentPosition: "Software Tester",
           contact: "https://www.linkedin.com/in/harunkhanj/",
         },
+        {
+          name: "Sneha Baskaran",
+          department: "CSE",
+          currentPosition: "Junior Software Develepor",
+          contact: "https://www.linkedin.com/in/snehabaskaran/",
+        },
         // Add more alumni...
       ],
     },
