@@ -1,15 +1,15 @@
 export const announcements = [
     {
-      title: "Upcoming Workshop",
-      content: "Join us for a career development workshop next week!",
+      title: "SGC Sessions are opening soon!",
+      content: "SGC Sessions will setting back to regular academics sessions from 19th February 2025.",
     },
     {
-      title: "New Mentorship Program",
-      content: "Applications are now open for our peer mentorship program.",
+      title: "SGC Recruitment 2025",
+      content: "Applications for the SGC Recruitment 2025 are opening soon for first years. Stay Tuned!",
     },
     {
-      title: "Alumni Meet 2023",
-      content: "Save the date for our annual alumni gathering on July 15th.",
+      title: "Announcement of Revibe 2025",
+      content: "Stay Tuned for the announcement of Revibe 2025, the annual Symposium fest of SGC - CAHCET.",
     },
   ]
   

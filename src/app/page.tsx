@@ -6,6 +6,7 @@ import { ChevronRight } from "lucide-react"
 import { announcements, achievements } from "../data/data"
 import Image from "next/image"
 import Link from "next/link"
+import BlogSection from "@/components/Blog-post" // Add this import
 
 interface Achievement {
   heading: string
@@ -17,6 +18,7 @@ interface Achievement {
 interface Announcement {
   title: string
   content: string
+  link: string
 }
 
 const Home: React.FC = () => {
@@ -213,6 +215,9 @@ const Home: React.FC = () => {
           ))}
         </div>
       </section>
+
+      {/* Blog Section */}
+      <BlogSection />
 
       {/* Navigation Section */}
       <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
