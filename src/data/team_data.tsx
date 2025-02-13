@@ -179,4 +179,12 @@ export interface TeamMember {
     image: "/placeholder.svg?height=200&width=200",
     linkedin: "https://www.linkedin.com/in/abdul-gaffoor-asjad-b6b2412a6",
 }
+ {
+    name:"Shafifa Naaz.D",
+    role:"Member",
+    department:"Information Technology",
+    year:"II",
+    image: "/placeholder.svg?height=200&width=200",
+    linkedin: "https://www.linkedin.com/in/shafifa-naaz-7442472a6",
+}
 ];
