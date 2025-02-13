@@ -186,14 +186,14 @@ export interface TeamMember {
     year:"II",
     image: "/placeholder.svg?height=200&width=200",
     linkedin:"https://www.linkedin.com/in/mohammed-ayaz-2b16062a5",
-}
+},
 {
     name:"Kashif Ulhaq K",
     role:"Member",
     department:"Computer Science",
     year:"II",
     linkedin: "https://www.linkedin.com/in/kashif-ulhaq-a43956278?trk=contact-info",
-}
+},
 {
     name:"Mohammed Abuzar J",
     role:"Member",
@@ -201,7 +201,7 @@ export interface TeamMember {
     year:"II",
     image: "/placeholder.svg?height=200&width=200",
     linkedin: "https://www.linkedin.com/in/md-abuzar-1892882a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-}
+},
  {
     name:"Shafifa Naaz.D",
     role:"Member",
@@ -209,5 +209,15 @@ export interface TeamMember {
     year:"II",
     image: "/placeholder.svg?height=200&width=200",
     linkedin: "https://www.linkedin.com/in/shafifa-naaz-7442472a6",
+
+},
+{
+    name:"Mohammed Aasif",
+    role:"Member",
+    department:"Computer Science",
+    year:"II",
+    image: "/placeholder.svg?height=200&width=200",
+    linkedin: "https://www.linkedin.com/in/mohammed-aasif-6a36062a5",
 }
-];
+]
+
