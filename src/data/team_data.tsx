@@ -187,6 +187,7 @@ export interface TeamMember {
     image: "/placeholder.svg?height=200&width=200",
     linkedin:"https://www.linkedin.com/in/mohammed-ayaz-2b16062a5",
 },
+
 {
     name:"Mohammed Abuzar J",
     role:"Member",
@@ -211,5 +212,14 @@ export interface TeamMember {
   image: "/placeholder.svg?height=200&width=200",
   linkedin:"https://www.linkedin.com/in/kashif-ulhaq-a43956278?trk=contact-info",
 },
+{
 
+    name:"Mohammed Aasif",
+    role:"Member",
+    department:"Computer Science",
+    year:"II",
+    image: "/placeholder.svg?height=200&width=200",
+    linkedin: "https://www.linkedin.com/in/mohammed-aasif-6a36062a5",
+},
 ];
+
