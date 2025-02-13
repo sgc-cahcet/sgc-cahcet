@@ -194,5 +194,12 @@ export interface TeamMember {
     year:"II",
     linkedin: "https://www.linkedin.com/in/kashif-ulhaq-a43956278?trk=contact-info",
 }
-
+{
+    name:"Mohammed Abuzar J",
+    role:"Member",
+    department:"Computer Science",
+    year:"II",
+    image: "/placeholder.svg?height=200&width=200",
+    linkedin: "https://www.linkedin.com/in/md-abuzar-1892882a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+}
 ];
