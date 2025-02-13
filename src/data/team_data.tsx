@@ -238,6 +238,15 @@ export interface TeamMember {
   image: "/placeholder.svg?height=200&width=200",
   linkedin:"https://www.linkedin.com/in/mohamed-melhan-k-o-1bb3872a6",
 },
+{
     
-];
+  name: "Abishek ",
+  role: "Member",
+  department: "Information Technology",
+  year: "II",
+  image: "/placeholder.svg?height=200&width=200",
+  linkedin:"https://www.linkedin.com/in/,
+},
+        
+
 
