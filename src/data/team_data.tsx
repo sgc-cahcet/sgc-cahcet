@@ -178,5 +178,13 @@ export interface TeamMember {
     year:"II",
     image: "/placeholder.svg?height=200&width=200",
     linkedin: "https://www.linkedin.com/in/abdul-gaffoor-asjad-b6b2412a6",
+},
+{
+    name:"MOHAMMED AYAZ.A",
+    role:"MEMBER",
+    department:"COMPUTER SCIENCE",
+    year:"II",
+    image: "/placeholder.svg?height=200&width=200",
+    linkedin:"https://www.linkedin.com/in/mohammed-ayaz-2b16062a5",
 }
 ];
