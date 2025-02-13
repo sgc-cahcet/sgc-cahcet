@@ -171,5 +171,12 @@ export interface TeamMember {
   image: "/placeholder.svg?height=200&width=200",
   linkedin: "https://www.linkedin.com/in/delhi-ganesh-4a76a9326",
 }, 
-
+{
+  name: "Kashif Ulhaq K",
+  role: "Member",
+  department: "Computer Science",
+  year: "II",
+  image: "",
+  linkedin:"https://www.linkedin.com/in/kashif-ulhaq-a43956278?trk=contact-info",
+},
 ];
