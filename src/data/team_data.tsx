@@ -128,7 +128,7 @@ export interface TeamMember {
   department: "Computer Science",
   year: "III",
   image: "/placeholder.svg?height=200&width=200",
-  linkedin: "https://www.linkedin.com/in/",
+  linkedin: "https://www.linkedin.com/in/zaina-afreen-76892a265",
 },
  {
       name: "Kamali K",
@@ -180,9 +180,9 @@ export interface TeamMember {
     linkedin: "https://www.linkedin.com/in/abdul-gaffoor-asjad-b6b2412a6",
 },
 {
-    name:"MOHAMMED AYAZ.A",
-    role:"MEMBER",
-    department:"COMPUTER SCIENCE",
+    name:"Mohammed Ayaz.A",
+    role:"Member",
+    department:"Computer Science",
     year:"II",
     image: "/placeholder.svg?height=200&width=200",
     linkedin:"https://www.linkedin.com/in/mohammed-ayaz-2b16062a5",
@@ -203,13 +203,13 @@ export interface TeamMember {
     image: "/placeholder.svg?height=200&width=200",
     linkedin: "https://www.linkedin.com/in/shafifa-naaz-7442472a6",
 },
-    {
-name: "Kashif Ulhaq K",
- role: "Member",
- department: "Computer Science",
- year: "II",
- image: "/placeholder.svg?height=200&width=200",
- linkedin:"https://www.linkedin.com/in/kashif-ulhaq-a43956278?trk=contact-info",
+{
+  name: "Kashif Ulhaq K",
+  role: "Member",
+  department: "Computer Science",
+  year: "II",
+  image: "/placeholder.svg?height=200&width=200",
+  linkedin:"https://www.linkedin.com/in/kashif-ulhaq-a43956278?trk=contact-info",
 },
 
 ];
