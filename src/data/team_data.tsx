@@ -14,7 +14,7 @@ export interface TeamMember {
       role: "President",
       department: "Computer Science",
       year: "IV",
-      image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739469244/yumnah_safiya_c7udag.jpg",
+      image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739474339/yumnah_safiya_rmopxw.jpg",
       linkedin: "https://www.linkedin.com/in/",
     },
     {
@@ -22,7 +22,7 @@ export interface TeamMember {
       role: "Vice President",
       department: "Information Technology",
       year: "IV",
-      image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739471632/zayd_bilal_ijfgkw.jpg",
+      image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739473877/zayd_bilal_nuyptb.jpg",
       linkedin: "https://www.linkedin.com/in/zaid-bilal-347473247",
     },
     {
@@ -30,7 +30,7 @@ export interface TeamMember {
       role: "Vice President",
       department: "Computer Science",
       year: "IV",
-      image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739469253/seneha.jpeg_tsug1f.jpg",
+      image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739474333/seneha.jpeg_u6tqww.jpg",
       linkedin: "https://www.linkedin.com/in/",
     },
     {
@@ -78,7 +78,7 @@ export interface TeamMember {
       role: "Member",
       department: "Electrical and Electronics Engineering",
       year: "III",
-      image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739469247/harish_eukomu.jpg",
+      image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739474338/harish_uxwkym.jpg",
       linkedin: "https://www.linkedin.com/in/harish-g-a4b0b8294/",
     },
     {
@@ -94,7 +94,7 @@ export interface TeamMember {
       role: "Member",
       department: "Artificial Intelligence and Data Science",
       year: "III",
-      image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739469243/navee.jpeg_pwss7i.jpg",
+      image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739474330/navee.jpeg_tuz83q.jpg",
       linkedin: "https://www.linkedin.com/in/syed-naveeth-0b72a2294",
     },      
     {
@@ -118,7 +118,7 @@ export interface TeamMember {
       role: "Member",
       department: "Artificial Intelligence and Data Science",
       year: "III",
-      image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739469246/Ruqyya_N_oazggv.jpg",
+      image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739474330/Ruqyya_N_adcsov.jpg",
       linkedin: "https://www.linkedin.com/in/ruqyya-nazeene-907947292",
     },      
     {
@@ -150,7 +150,7 @@ export interface TeamMember {
       role: "Member",
       department: "Computer Science",
       year: "III",
-      image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739469253/5874_-_swea_undlsx.jpg",
+      image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739474331/5874_-_swea_ownpt3.jpg",
       linkedin: "https://www.linkedin.com/in/sweatha-singaravelu-60710b294",
     }, 
     {
@@ -166,7 +166,7 @@ export interface TeamMember {
       role: "Member",
       department: "Information Technology",
       year: "IV",
-      image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739470509/delhi_apw5pw.jpg",
+      image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739474336/delhi_gyk1jx.jpg",
       linkedin: "https://www.linkedin.com/in/delhi-ganesh-4a76a9326",
     }, 
     {
@@ -174,7 +174,7 @@ export interface TeamMember {
       role:"Member",
       department:"Computer Science",
       year:"II",
-      image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739469242/Mohammed_Mudassir461_dwng1y.jpg",
+      image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739474332/Abdul_Gaffoor_Asjad_d9uolc.jpg",
       linkedin: "https://www.linkedin.com/in/abdul-gaffoor-asjad-b6b2412a6",
     },
     {
@@ -249,7 +249,7 @@ export interface TeamMember {
         role:"Member",
         department:"Information Technology",
         year:"II",
-        image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739469253/swetha.jpeg_fr8kdo.jpg",
+        image: "/placeholder.svg?height=200&width=200",
         linkedin: "https://www.linkedin.com/in/",
     },
     {
@@ -265,7 +265,7 @@ export interface TeamMember {
         role:"Member",
         department:"Computer Science",
         year:"II",
-        image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739469244/Mohammed_Abbas_qdtxg2.jpg",
+        image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739474337/Mohammed_Abbas_z7hbpd.jpg",
         linkedin: "https://www.linkedin.com/in/",
     },
     {
