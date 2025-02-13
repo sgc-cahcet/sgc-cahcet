@@ -222,6 +222,15 @@ export interface TeamMember {
   linkedin:"https://www.linkedin.com/in/kashif-ulhaq-a43956278?trk=contact-info",
 },
 {
+  name:"Mudassir S F",
+  role:"MEMBER",
+  department:"Artificial Intelligence & Data Science",
+  year:"II",
+  image: "/placeholder.svg?height=200&width=200",
+  linkedin:"https://www.linkedin.com/in/mohammed-mudassir-a3b6322a5",
+},
+{
+    
   name: "Mohamed Melhan K O",
   role: "Member",
   department: "Artificial Intelligence and Data Science",
@@ -229,5 +238,6 @@ export interface TeamMember {
   image: "/placeholder.svg?height=200&width=200",
   linkedin:"https://www.linkedin.com/in/mohamed-melhan-k-o-1bb3872a6",
 },
+    
 ];
 
