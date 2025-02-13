@@ -247,6 +247,30 @@ export interface TeamMember {
   image: "/placeholder.svg?height=200&width=200",
   linkedin:"https://www.linkedin.com/in/,
 },
+      {
+    name:"Swetha V ",
+    role:"Member",
+    department:"Information Technology",
+    year:"II",
+    image: "/placeholder.svg?height=200&width=200",
+    linkedin: "",
+},
+      {
+    name:"Dhurga prasad S",
+    role:"Member",
+    department:"Electrical and Electronics Engineering ",
+    year:"II",
+    image: "/placeholder.svg?height=200&width=200",
+    linkedin: "",
+},
+      {
+    name:"Mohammed Abbas T A ",
+    role:"Member",
+    department:"Computer Science",
+    year:"II",
+    image: "/placeholder.svg?height=200&width=200",
+    linkedin: "",
+},
         
 
 
