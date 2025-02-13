@@ -264,7 +264,7 @@ export interface TeamMember {
     linkedin: "",
 },
       {
-    name:"Mohammed Abbas T A ",
+    name:"Mohamed Abbas T A ",
     role:"Member",
     department:"Computer Science",
     year:"II",
