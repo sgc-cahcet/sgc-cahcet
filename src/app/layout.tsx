@@ -17,17 +17,17 @@ const poppins = Poppins({ weight: ["400", "600", "700"], subsets: ["latin"], var
 const defaultSEO = {
   title: "Students Guidance Cell",
   description: "SGC organizes diverse events, unveiling hidden talents. Through these initiatives, it nurtures skills, ensuring remarkable career outcomes and aspiring to elevate every student professionalism to new heights.",
-  keywords: "SGC, CAHCET, SGC-CAHCET, Student Guidance Cell, CAHCET Student Guidance Cell",
+  keywords: "SGC, CAHCET, SGC-CAHCET, Student Guidance Cell, CAHCET Student Guidance Cell, C Abdul Hakeem College of Engineering and Technology, CAHCET SGC",
   author: "SGC Team",
-  siteUrl: "https://sgc.pages.dev",
+  siteUrl: "https://sgc-cahcet.pages.dev",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://sgc.pages.dev",
+    url: "https://sgc-cahcet.pages.dev",
     siteName: "Students Guidance Cell",
     images: [
       {
-        url: "https://sgc.pages.dev/og-image.jpg",
+        url: "https://sgc-cahcet.pages.dev/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "SGC Site preview image",
