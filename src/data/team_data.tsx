@@ -202,4 +202,12 @@ export interface TeamMember {
     image: "/placeholder.svg?height=200&width=200",
     linkedin: "https://www.linkedin.com/in/md-abuzar-1892882a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
 }
+ {
+    name:"Shafifa Naaz.D",
+    role:"Member",
+    department:"Information Technology",
+    year:"II",
+    image: "/placeholder.svg?height=200&width=200",
+    linkedin: "https://www.linkedin.com/in/shafifa-naaz-7442472a6",
+}
 ];
