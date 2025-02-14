@@ -198,7 +198,7 @@ export const teamMembers: TeamMember[] = [
       role:"Member",
       department:"Information Technology",
       year:"II",
-      image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739470368/Shaffu_Naaz_g8bcm8.jpg",
+      image: "/placeholder.svg?height=200&width=200",
       linkedin: "https://www.linkedin.com/in/shafifa-naaz-7442472a6",
   },
   {
