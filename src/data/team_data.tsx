@@ -94,7 +94,7 @@ export const teamMembers: TeamMember[] = [
     role: "Member",
     department: "Artificial Intelligence and Data Science",
     year: "III",
-    image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739474330/navee.jpeg_tuz83q.jpg",
+    image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739541074/syed_naveeth_q0b7kv.jpg",
     linkedin: "https://www.linkedin.com/in/syed-naveeth-0b72a2294",
   },      
   {

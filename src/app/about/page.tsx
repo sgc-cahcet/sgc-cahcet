@@ -17,7 +17,7 @@ export default function About() {
         className="neo-brutalism-white p-8 rounded-lg"
       >
         <img
-          src="https://res.cloudinary.com/douhcccb7/image/upload/v1738083958/IMG_2818_mekutl.jpg"
+          src="https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739543508/IMG_2803_su74x2.jpg"
           alt="SGC Group Photo"
           width={800}
           height={400}
@@ -41,8 +41,8 @@ export default function About() {
         className="neo-brutalism-white p-8 rounded-lg"
       >
         <Image
-          src="https://res.cloudinary.com/douhcccb7/image/upload/v1738083458/download_2_yn3bo0.jpg"
-          alt="SGC Group Photo"
+          src="https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739541663/cahcet_top_pcngpd.jpg"
+          alt="CAHCET Campus"
           width={800}
           height={400}
           className="w-full h-auto mb-8 rounded-md"
