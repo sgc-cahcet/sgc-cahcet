@@ -156,7 +156,7 @@ export const teamMembers: TeamMember[] = [
   {
     name: "Mohammed Zabeer. Z",
     role: "Member",
-    department: "Electrical & Electronics Engineering",
+    department: "Electronics & Communication Engineering",
     year: "IV",
     image: "https://media.licdn.com/dms/image/v2/D5603AQGL3uTmX5rlAg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1695534376749?e=1744848000&v=beta&t=KDI4sovqxK9l6WefU-Yj4QN1DnlHgxkN94jcLRo_tac",
     linkedin: "https://www.linkedin.com/in/mohammed-zabeer-z/",
@@ -182,7 +182,7 @@ export const teamMembers: TeamMember[] = [
     role:"Member",
     department:"Computer Science",
     year:"II",
-    image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739469244/IMG-20240422-WA0017_-_Riyaz_Ahmed_yefs5q.jpg",
+    image: "https://res.cloudinary.com/douhcccb7/image/upload/v1739526013/IMG_20250214_150709_hkgqoy.jpg",
     linkedin:"https://www.linkedin.com/in/mohammed-ayaz-2b16062a5",
   },
   {
@@ -190,7 +190,7 @@ export const teamMembers: TeamMember[] = [
     role:"Member",
     department:"Computer Science",
     year:"II",
-    image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739469245/Abu_-_Md_Abuzar_zocaue.jpg",
+    image: "https://res.cloudinary.com/douhcccb7/image/upload/v1739525912/WhatsApp_Image_2025-02-14_at_5.06.32_AM_nasmey.jpg",
     linkedin: "https://www.linkedin.com/in/md-abuzar-1892882a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
