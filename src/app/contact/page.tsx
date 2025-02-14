@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import { MapPin, Phone, Mail, Github, Instagram, Linkedin } from "lucide-react"
 import { useState } from "react"
 import { supabase } from "@/lib/supabaseClient"
+import Image from "next/image"
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -112,6 +113,12 @@ export default function Contact() {
               className="text-black hover:text-gray-800"
             >
               <Github size={24} />
+            </a>
+            <a
+              href="https://sgc-cahcet.medium.com/"
+              className="text-black hover:text-gray-800"
+            >
+              <Image src="/medium-black.svg" alt="Medium" width={24} height={24} />
             </a>
           </div>
         </motion.div>
