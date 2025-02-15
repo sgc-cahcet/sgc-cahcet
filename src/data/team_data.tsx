@@ -198,7 +198,7 @@ export const teamMembers: TeamMember[] = [
       role:"Member",
       department:"Information Technology",
       year:"II",
-      image: "https://res.cloudinary.com/douhcccb7/image/upload/v1739634484/WhatsApp_Image_2025-02-15_at_7.44.53_PM_nbekjc.jpg",
+      image: "https://res.cloudinary.com/douhcccb7/image/upload/v1739638247/WhatsApp_Image_2025-02-15_at_10.07.35_PM_zn9aaw.jpg",
       linkedin: "https://www.linkedin.com/in/shafifa-naaz-7442472a6",
   },
   {
@@ -249,7 +249,7 @@ export const teamMembers: TeamMember[] = [
       role:"Member",
       department:"Information Technology",
       year:"II",
-      image: "/placeholder.svg?height=200&width=200",
+      image: "https://res.cloudinary.com/douhcccb7/image/upload/v1739638258/WhatsApp_Image_2025-02-15_at_9.56.53_PM_s9oghq.jpg",
       linkedin: "https://www.linkedin.com/in/",
   },
   {
@@ -257,7 +257,7 @@ export const teamMembers: TeamMember[] = [
       role:"Member",
       department:"Electrical and Electronics Engineering ",
       year:"II",
-      image: "https://res.cloudinary.com/douhcccb7/image/upload/v1739635864/WhatsApp_Image_2025-02-15_at_9.36.39_PM_e2ygip.jpg",
+      image: "https://res.cloudinary.com/douhcccb7/image/upload/v1739638236/WhatsApp_Image_2025-02-15_at_9.36.39_PM_uzlpgq.jpg",
       linkedin: "https://www.linkedin.com/in/",
   },
   {
