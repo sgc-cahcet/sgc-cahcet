@@ -150,7 +150,7 @@ export const teamMembers: TeamMember[] = [
     role: "Member",
     department: "Computer Science",
     year: "III",
-    image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739474331/5874_-_swea_ownpt3.jpg",
+    image: "https://res.cloudinary.com/douhcccb7/image/upload/v1739634046/WhatsApp_Image_2025-02-15_at_8.02.04_PM_xkp51u.jpg",
     linkedin: "https://www.linkedin.com/in/sweatha-singaravelu-60710b294",
   }, 
   {
@@ -182,7 +182,7 @@ export const teamMembers: TeamMember[] = [
     role:"Member",
     department:"Computer Science",
     year:"II",
-    image: "https://res.cloudinary.com/douhcccb7/image/upload/v1739526013/IMG_20250214_150709_hkgqoy.jpg",
+    image: "https://res.cloudinary.com/douhcccb7/image/upload/v1739635218/IMG_20250214_150709_udztnu.jpg",
     linkedin:"https://www.linkedin.com/in/mohammed-ayaz-2b16062a5",
   },
   {
@@ -198,7 +198,7 @@ export const teamMembers: TeamMember[] = [
       role:"Member",
       department:"Information Technology",
       year:"II",
-      image: "/placeholder.svg?height=200&width=200",
+      image: "https://res.cloudinary.com/douhcccb7/image/upload/v1739634484/WhatsApp_Image_2025-02-15_at_7.44.53_PM_nbekjc.jpg",
       linkedin: "https://www.linkedin.com/in/shafifa-naaz-7442472a6",
   },
   {
@@ -232,7 +232,7 @@ export const teamMembers: TeamMember[] = [
     role: "Member",
     department: "Artificial Intelligence and Data Science",
     year: "II",
-    image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739469245/Melhan_lsrqnp.jpg",
+    image: "https://res.cloudinary.com/douhcccb7/image/upload/v1739634425/WhatsApp_Image_2025-02-15_at_6.12.28_PM_gnbkmu.jpg",
     linkedin:"https://www.linkedin.com/in/mohamed-melhan-k-o-1bb3872a6",
   },
   {
@@ -257,7 +257,7 @@ export const teamMembers: TeamMember[] = [
       role:"Member",
       department:"Electrical and Electronics Engineering ",
       year:"II",
-      image: "/placeholder.svg?height=200&width=200",
+      image: "https://res.cloudinary.com/douhcccb7/image/upload/v1739635864/WhatsApp_Image_2025-02-15_at_9.36.39_PM_e2ygip.jpg",
       linkedin: "https://www.linkedin.com/in/",
   },
   {
@@ -273,7 +273,7 @@ export const teamMembers: TeamMember[] = [
     role: "Member",
     department: "Artificial Intelligence and Data Science",
     year: "III",
-    image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739474331/Mathi_arasu_i0wi8l.jpg",
+    image: "https://res.cloudinary.com/douhcccb7/image/upload/v1739634589/WhatsApp_Image_2025-02-08_at_5.11.29_AM_hk33pe.jpg",
     linkedin: "https://www.linkedin.com/in/",
   },  
       
