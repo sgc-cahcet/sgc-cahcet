@@ -75,3 +75,7 @@ h6 {
   animation: neon-glow 1.5s ease-in-out infinite alternate;
 }
 
+::selection {
+  background-color: #ffcc00; /* Change this to your preferred color */
+  color: #000; /* Change text color when selected */
+}
