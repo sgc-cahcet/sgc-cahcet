@@ -86,7 +86,7 @@ export const teamMembers: TeamMember[] = [
     role: "Member",
     department: "Artificial Intelligence and Data Science",
     year: "III",
-    image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739469243/samreem.jpeg_sapquy.jpg",
+    image: "https://res.cloudinary.com/douhcccb7/image/upload/v1739717176/WhatsApp_Image_2025-02-15_at_10.49.36_PM_eq3tks.jpg",
     linkedin: "https://www.linkedin.com/in/samreen-humera-546223294",
   }, 
   {
