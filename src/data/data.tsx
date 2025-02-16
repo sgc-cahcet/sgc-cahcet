@@ -29,7 +29,7 @@ export const announcements = [
       heading: "Our SGC member Zabeer wins State Level Speech Competition and awarded by Honorable Deputy Cheif Minister",
       description:
         "Our SGC member Mohameed Zabeer, who has been selected for the State Level Speech Competition about Muthamizh Arignar Kalaignar's Centenary Fest (2024) conducted by Govt. of Tamil Nadu, has been awarded by the Honorable Deputy Cheif Minister Thiru. Udhayanidhi Stalin at Chennai.",
-      link: "",
+      link: "https://www.instagram.com/p/DGJBKzyzG-h/?img_index=7&igsh=MXgyd2o1Z3ozNXZjMQ==",
     },
 
     {
