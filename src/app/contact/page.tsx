@@ -83,7 +83,7 @@ export default function Contact() {
             </li>
             <li className="flex items-center">
               <Mail className="mr-2" />
-              <span>studentguidancecell.cahcet@gmail.com</span>
+              <span>contact@teamsgc.in</span>
             </li>
           </ul>
         </motion.div>
