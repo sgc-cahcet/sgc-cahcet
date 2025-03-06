@@ -9,14 +9,18 @@ import Image from "next/image"
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false)
-  const { theme, setTheme } = useTheme()
+  const { theme, resolvedTheme, setTheme } = useTheme()
   const [mounted, setMounted] = useState(false)
   const [activeSubmenu, setActiveSubmenu] = useState<string | null>(null)
-
+  
   // Handle mounting state
   useEffect(() => {
     setMounted(true)
   }, [])
+
+  // Only determine theme-dependent values after mounting to avoid hydration mismatch
+  const isDarkTheme = mounted && (theme === "dark" || resolvedTheme === "dark");
+  const logoSrc = isDarkTheme ? "/logo-white.png" : "/logo.png";
 
   const menuItems = [
     { name: "Home", href: "/" },
@@ -37,7 +41,12 @@ const Header = () => {
     <header className="bg-white dark:bg-gray-800 text-gray-800 dark:text-white p-4 sticky top-0 z-50 neo-brutalism-shadow">
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold flex items-center">
-          <Image src="/logo.png" alt="SGC Logo" width={40} height={40} className="mr-2" />
+          {/* Use a default logo initially, then the theme-specific one after mounting */}
+          {mounted ? (
+            <Image src={logoSrc} alt="SGC Logo" width={40} height={40} className="mr-2" />
+          ) : (
+            <div className="w-10 h-10 mr-2" /> // Placeholder with same dimensions to avoid layout shift
+          )}
           <span>SGC</span>
         </Link>
         <nav className="hidden md:flex space-x-4">

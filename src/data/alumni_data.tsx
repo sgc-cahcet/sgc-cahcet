@@ -31,7 +31,7 @@ export const alumni = [
         {
           name: "Prakash K",
           department: "IT",
-          currentPosition: "Software Engineer",
+          currentPosition: "N/A",
           contact: "https://www.linkedin.com/in/prakashkbtech/",
         },
         {
