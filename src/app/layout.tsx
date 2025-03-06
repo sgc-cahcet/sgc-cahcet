@@ -6,7 +6,9 @@ import Header from "../components/Header"
 import Footer from "../components/Footer"
 import { motion, AnimatePresence } from "framer-motion"
 import { usePathname } from "next/navigation"
+import Script from "next/script"
 import { ThemeProvider } from "next-themes"
+
 import Head from 'next/head'
 
 // Font configurations
@@ -83,6 +85,24 @@ export default function RootLayout({
         
         {/* Favicon */}
         <link rel="icon" href="/favicon.ico" />
+        
+        {/* Google Analytics */}
+        <Script 
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-FHV2PFPT7D"
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-FHV2PFPT7D');
+            `,
+          }}
+        />        
       </head>
       <body className={`${inter.variable} ${poppins.variable} font-sans overflow-x-hidden`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
