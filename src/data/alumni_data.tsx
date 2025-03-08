@@ -133,5 +133,29 @@ export const alumni = [
         // Add more alumni...
       ],
     },
+    {
+      year: "2021",
+      members: [
+        {
+          name: "Aneesur Rahman P M",
+          department: "IT",
+          currentPosition: "Packaged App Development Senior Analyst at Accenture",
+          contact: "https://www.linkedin.com/in/aneesurrahmanpm/",
+        },
+        {
+          name: "Arel Shane G",
+          department: "IT",
+          currentPosition: "Instructional Designer at LKQ Corp",
+          contact: "https://www.linkedin.com/in/arelshane/",
+        },
+        {
+          name: "Chithira Menon P S",
+          department: "IT",
+          currentPosition: "Software Engineer at Honeywell HTS",
+          contact: "https://www.linkedin.com/in/chithira-menon-p-s-3146b7160/",
+        },
+        // Add more alumni...
+      ],
+    }
     // Add more years...
   ]
