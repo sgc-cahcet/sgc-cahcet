@@ -92,7 +92,7 @@ export default function JoinPage() {
              </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="mailto:studentguidancecell@gmail.com"
+                href="mailto:contact@teamsgc.in"
                                  className="bg-white dark:bg-gray-800 text-slate-700 dark:text-slate-300 px-6 py-2 rounded-lg font-medium hover:bg-slate-50 dark:hover:bg-gray-700 transition-colors flex items-center justify-center"
               >
                 <Mail className="w-4 h-4 mr-2" />
