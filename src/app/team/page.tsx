@@ -4,20 +4,20 @@ import { motion } from "framer-motion";
 import { teamMembers } from "../../data/team_data";
 import { Linkedin } from "lucide-react";
 
-const getYearSuffix = (year: string) => {
+/*const getYearSuffix = (year: string) => {
   switch (year) {
     case "I":
-      return "st"
+      return ""
     case "II":
-      return "nd"
+      return ""
     case "III":
-      return "rd"
+      return ""
     case "IV":
-      return "th"
+      return ""
     default:
       return ""
   }
-}
+}*/
 
 const getRolePriority = (role: string) => {
   switch (role) {
@@ -25,10 +25,12 @@ const getRolePriority = (role: string) => {
       return 1
     case "Vice President":
       return 2
-    case "Advisor":
+    case "Administrator":
       return 3
-    default:
+    case "Advisor":
       return 4
+    default:
+      return 5
   }
 }
 
@@ -84,7 +86,7 @@ export default function Team() {
             <p className="text-lg text-gray-600 mb-1">{member.role}</p>
             <p className="text-sm text-gray-500 mb-4">
               {member.year}
-              <sup>{getYearSuffix(member.year)}</sup> Year, {member.department}
+              {/*<sup>{getYearSuffix(member.year)}</sup>*/} Year, {member.department}
             </p>
             {member.linkedin && (
               <a
