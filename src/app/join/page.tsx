@@ -27,7 +27,7 @@ export default function JoinPage() {
               Join SGC
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              Become part of the Student Guidance Cell and help shape the future of our community
+              Become part of the Students Guidance Cell and help shape the future of our community
             </p>
           </motion.div>
 
@@ -110,7 +110,6 @@ export default function JoinPage() {
         </motion.div>
       </main>
 
-      {/* Footer will be included via layout */}
     </div>
   )
 } 
