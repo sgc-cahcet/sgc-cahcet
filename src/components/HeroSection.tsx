@@ -182,7 +182,7 @@ const letterVariants: LetterVariants = {
             >
               <Link href="/about">
                 <motion.button 
-                  className="bg-black dark:bg-white text-white dark:text-black font-bold py-3 md:py-4 px-6 md:px-8 rounded-xl border-2 border-black dark:border-white text-lg md:text-xl shadow-[4px_4px_0px_0px_rgba(59,130,246,1)] dark:shadow-[4px_4px_0px_0px_rgba(147,51,234,1)] hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none transition-all"
+                  className="bg-white dark:bg-gray-900 text-black dark:text-white font-bold py-3 md:py-4 px-6 md:px-8 rounded-xl border-2 border-black dark:border-gray-700 text-lg md:text-xl shadow-[4px_4px_0px_0px_rgba(147,51,234,1)] dark:shadow-[4px_4px_0px_0px_rgba(59,130,246,1)] hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none transition-all"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >
@@ -191,7 +191,7 @@ const letterVariants: LetterVariants = {
               </Link>
               <Link href="/events">
                 <motion.button 
-                  className="bg-transparent text-black dark:text-white font-bold py-3 md:py-4 px-6 md:px-8 rounded-xl border-2 border-black dark:border-white text-lg md:text-xl hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all"
+                  className="bg-white dark:bg-gray-900 text-black dark:text-white font-bold py-3 md:py-4 px-6 md:px-8 rounded-xl border-2 border-black dark:border-gray-700 text-lg md:text-xl shadow-[4px_4px_0px_0px_rgba(59,130,246,1)] dark:shadow-[4px_4px_0px_0px_rgba(147,51,234,1)] hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none transition-all"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >
