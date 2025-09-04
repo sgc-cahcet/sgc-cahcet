@@ -5,8 +5,7 @@ import { Clock, Users, Mail, MessageCircle } from "lucide-react"
 
 export default function JoinPage() {
   return (
-         <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 dark:from-gray-900 dark:to-gray-800">
-      
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 dark:from-gray-900 dark:to-gray-800">
       <main className="container mx-auto px-4 py-16">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -20,8 +19,8 @@ export default function JoinPage() {
             transition={{ delay: 0.2, duration: 0.6 }}
             className="mb-12"
           >
-                         <div className="inline-flex items-center justify-center w-16 h-16 bg-slate-100 dark:bg-slate-700 rounded-full mb-6">
-               <Users className="w-8 h-8 text-slate-600 dark:text-slate-300" />
+            <div className="inline-flex items-center justify-center w-16 h-16 bg-slate-100 dark:bg-slate-700 rounded-full mb-6">
+              <Users className="w-8 h-8 text-slate-600 dark:text-slate-300" />
             </div>
             <h1 className="text-5xl font-bold text-gray-900 dark:text-white mb-4">
               Join SGC
@@ -31,7 +30,7 @@ export default function JoinPage() {
             </p>
           </motion.div>
 
-        
+          {/* Recruitment Info */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -40,42 +39,22 @@ export default function JoinPage() {
           >
             <div className="flex items-center justify-center mb-6">
               <Clock className="w-8 h-8 text-orange-500 dark:text-orange-400 mr-3" />
-              <h2 className="text-3xl font-bold text-gray-900 dark:text-white">Stay Tuned!</h2>
+              <h2 className="text-3xl font-bold text-gray-900 dark:text-white">Recruitment Notice</h2>
             </div>
-            
-            <div className="max-w-2xl mx-auto">
-              <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-                We're currently preparing something exciting for our recruitment process. 
-                The application portal will be opening soon!
-              </p>
-              
-                             <div className="bg-gradient-to-r from-slate-50 to-gray-50 dark:from-gray-700 dark:to-gray-600 rounded-lg p-6 mb-6">
-                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
-                   What to Expect
-                 </h3>
-                 <ul className="text-left space-y-2 text-gray-700 dark:text-gray-300">
-                   <li className="flex items-start">
-                     <span className="text-slate-600 dark:text-slate-300 mr-2">•</span>
-                     <span>Comprehensive application process</span>
-                   </li>
-                   <li className="flex items-start">
-                     <span className="text-slate-600 dark:text-slate-300 mr-2">•</span>
-                     <span>Multiple roles and opportunities</span>
-                   </li>
-                   <li className="flex items-start">
-                     <span className="text-slate-600 dark:text-slate-300 mr-2">•</span>
-                     <span>Skill development and mentorship</span>
-                   </li>
-                   <li className="flex items-start">
-                     <span className="text-slate-600 dark:text-slate-300 mr-2">•</span>
-                     <span>Networking with industry professionals</span>
-                   </li>
-                 </ul>
-              </div>
 
-              <div className="flex items-center justify-center text-sm text-gray-500 dark:text-gray-400">
-                <span>Follow us on social media for updates!</span>
-              </div>
+            <div className="max-w-2xl mx-auto text-left space-y-4 text-gray-700 dark:text-gray-300">
+              <p>
+                We are pleased to announce that the <strong>SGC Recruitment Process for Second-Year Students</strong> is now open.
+              </p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li><strong>Start Date:</strong> 9th September, Tuesday</li>
+                <li><strong>End Date:</strong> 11th September, Thursday</li>
+                <li><strong>Venue:</strong> SGC Room, Main Block</li>
+                <li><strong>Time:</strong> 1:00 PM – 1:30 PM</li>
+              </ul>
+              <p>
+                Don’t miss the opportunity to become part of the Students Guidance Cell and contribute to shaping the future of our campus community.
+              </p>
             </div>
           </motion.div>
 
@@ -84,23 +63,23 @@ export default function JoinPage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.6 }}
-                         className="bg-slate-700 dark:bg-slate-800 text-white rounded-xl p-6"
+            className="bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-white rounded-xl p-6"
           >
             <h3 className="text-xl font-semibold mb-3">Have Questions?</h3>
-                         <p className="text-slate-200 dark:text-slate-300 mb-4">
-               Reach out to us for more information about joining SGC
-             </p>
+            <p className="text-slate-700 dark:text-slate-300 mb-4">
+              Reach out to us for more information about joining SGC
+            </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="mailto:contact@teamsgc.in"
-                                 className="bg-white dark:bg-gray-800 text-slate-700 dark:text-slate-300 px-6 py-2 rounded-lg font-medium hover:bg-slate-50 dark:hover:bg-gray-700 transition-colors flex items-center justify-center"
+                className="bg-white dark:bg-gray-800 text-slate-700 dark:text-slate-300 px-6 py-2 rounded-lg font-medium hover:bg-slate-50 dark:hover:bg-gray-700 transition-colors flex items-center justify-center"
               >
                 <Mail className="w-4 h-4 mr-2" />
                 Email Us
               </a>
               <a
                 href="/contact"
-                                 className="border border-white text-white px-6 py-2 rounded-lg font-medium hover:bg-white hover:text-slate-700 dark:hover:bg-gray-800 dark:hover:text-slate-300 transition-colors flex items-center justify-center"
+                className="border border-slate-700 dark:border-white text-slate-700 dark:text-white px-6 py-2 rounded-lg font-medium hover:bg-slate-200 dark:hover:bg-gray-700 transition-colors flex items-center justify-center"
               >
                 <MessageCircle className="w-4 h-4 mr-2" />
                 Contact Page
@@ -109,7 +88,6 @@ export default function JoinPage() {
           </motion.div>
         </motion.div>
       </main>
-
     </div>
   )
-} 
+}
