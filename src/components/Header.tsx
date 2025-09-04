@@ -35,7 +35,8 @@ const Header = () => {
     },
     { name: "Events", href: "/events" },
     { name: "Contact", href: "/contact" },
-  ]
+    { name: "Join Us", href: "/join" },
+    ]
 
   return (
     <header className="bg-white dark:bg-gray-800 text-gray-800 dark:text-white p-4 sticky top-0 z-50 neo-brutalism-shadow">
