@@ -25,7 +25,7 @@ export default function About() {
         />
         <h2 className="text-2xl font-bold mb-4 text-black dark:text-white">Our Story</h2>
         <p className="mb-4 text-black dark:text-gray-200">
-        SGC established in 2010 by Tanveer Ahmed and Mohammed Imran, is dedicated to empowering students professionally. 
+        SGC established in 2010 by late Mr. Tanveer Ahmed and Mr. Mohammed Imran, is dedicated to empowering students professionally. 
         Grounded in the mantra <b><i>of, for, and by the students</i></b>, SGC organizes diverse events, unveiling hidden talents. Through these initiatives, it nurtures skills, ensuring remarkable career outcomes and aspiring to elevate every student professionalism to new heights.
         </p>
         <p className="text-black dark:text-gray-200">
