@@ -42,7 +42,7 @@ const letterVariants: LetterVariants = {
     })
 };
   
-  const words = "Students Guidance Cell".split(" ");
+  const words = "Student Guidance Cell".split(" ");
   
   if (!mounted) return null;
   

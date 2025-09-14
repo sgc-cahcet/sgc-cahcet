@@ -2,7 +2,7 @@ export const events = [
     // Add the Events with repect to date format of (YYYY-MM-DD) Ex. "2025-02-02"
       {
         name: "Critical Thinking Workshop 2025",
-        description: "We at the Students Guidance Cell (SGC), C. Abdul Hakeem College of Engineering & Technology, organized the 'Critical Thinking' workshop for first-year students. The session featured engaging puzzles, group activities, and the game 'Think Out of the Box,' helping students develop problem-solving, creative thinking, and decision-making skills. Guest speakers Mr. Tejesh Pichandi (Founder, HangouTech Pvt. Ltd.) and Mr. Mohammed Zabeer. Z (Public Speaker & Ph.D. Aspirant) shared inspiring insights on innovation, goal-setting, and a growth mindset.",
+        description: "We at the Student Guidance Cell (SGC), C. Abdul Hakeem College of Engineering & Technology, organized the 'Critical Thinking' workshop for first-year students. The session featured engaging puzzles, group activities, and the game 'Think Out of the Box,' helping students develop problem-solving, creative thinking, and decision-making skills. Guest speakers Mr. Tejesh Pichandi (Founder, HangouTech Pvt. Ltd.) and Mr. Mohammed Zabeer. Z (Public Speaker & Ph.D. Aspirant) shared inspiring insights on innovation, goal-setting, and a growth mindset.",
         date: "2025-08-06",
         image: "https://pub-5d273e51c1e04ce0a3c2ff2de35c23a1.r2.dev/ctwrkshp.webp",
         link: "https://www.linkedin.com/posts/mohammed-aasif-create_criticalthinking-studentdevelopment-problemsolving-ugcPost-7362213652898238464-GmX1?utm_source=share&utm_medium=member_desktop",
