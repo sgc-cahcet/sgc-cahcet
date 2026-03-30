@@ -275,7 +275,16 @@ export const teamMembers: TeamMember[] = [
     year: "IV",
     image: "https://res.cloudinary.com/douhcccb7/image/upload/v1739634589/WhatsApp_Image_2025-02-08_at_5.11.29_AM_hk33pe.jpg",
     linkedin: "https://www.linkedin.com/in/",
-  },  
+  },
+
+  {
+    name: "Zakwan Haaziq",
+    role: "Alumini",
+    department: "Computer Science",
+    year: "II",
+    image: "https://res.cloudinary.com/dr9er64nu/image/upload/v1774895274/IMG-20260330-WA0021_htzhro.jpg",
+    linkedin: "https://www.linkedin.com/in/",
+  },
       
 
 ]
