@@ -285,6 +285,14 @@ export const teamMembers: TeamMember[] = [
     image: "https://res.cloudinary.com/dr9er64nu/image/upload/v1774895274/IMG-20260330-WA0021_htzhro.jpg",
     linkedin: "https://www.linkedin.com/in/",
   },
+   {
+    name: "GOKUL S",
+    role: "Member",
+    department: "Information Technology",
+    year: "II",
+    image: "https://gokuls2028.neocities.org/WhatsApp%20Image%202026-03-31%20at%2000.22.531.jpeg",
+    linkedin: "https://www.linkedin.com/in/gokul-s202428/",
+  },
       
 
 ]
