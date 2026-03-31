@@ -294,5 +294,13 @@ export const teamMembers: TeamMember[] = [
     linkedin: "https://www.linkedin.com/in/gokul-s202428/",
   },
       
-
+  {
+    name: "Mohammed Yasar M",
+    role: "Member",
+    department: "Artificial Intelligence and Data Science",
+    year: "II",
+    image: "https://res.cloudinary.com/djm8qhle1/image/upload/f_auto,q_auto/Screenshot_2026-03-31_163341_uwuv0c",
+    linkedin: "www.linkedin.com/in/mohammed-yasar-28b821334",
+  },
+  
 ]
