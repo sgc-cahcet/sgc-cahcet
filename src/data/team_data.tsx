@@ -302,5 +302,13 @@ export const teamMembers: TeamMember[] = [
     image: "https://res.cloudinary.com/djm8qhle1/image/upload/f_auto,q_auto/Screenshot_2026-03-31_163341_uwuv0c",
     linkedin: "www.linkedin.com/in/mohammed-yasar-28b821334",
   },
+  {
+  name: "R.Banusree",
+  role: "Member",
+  department: "Computer Science",
+  year: "II",
+  image: "https://res.cloudinary.com/dvfzsmzbt/image/upload/f_auto,q_auto/R_BANUSREE_iexzmz" ,
+  linkedin: "https://www.linkedin.com/in/r-banu-sree-5893a9379/",
+  },
   
 ]
