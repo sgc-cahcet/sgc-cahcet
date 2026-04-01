@@ -88,7 +88,7 @@ export const teamMembers: TeamMember[] = [
     year: "IV",
     image: "https://res.cloudinary.com/douhcccb7/image/upload/v1739717176/WhatsApp_Image_2025-02-15_at_10.49.36_PM_eq3tks.jpg",
     linkedin: "https://www.linkedin.com/in/samreen-humera-546223294",
-  }, 
+  },
   {
     name: "Syed Naveeth S N",
     role: "Member",
@@ -96,7 +96,7 @@ export const teamMembers: TeamMember[] = [
     year: "IV",
     image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739541074/syed_naveeth_q0b7kv.jpg",
     linkedin: "https://www.linkedin.com/in/syed-naveeth-0b72a2294",
-  },      
+  },
   {
     name: "Abishek P",
     role: "Member",
@@ -112,7 +112,7 @@ export const teamMembers: TeamMember[] = [
     year: "IV",
     image: "https://pub-a6554aaff6ec453fb80fff43d882309c.r2.dev/abdulbari.jpg",
     linkedin: "https://www.linkedin.com/in/abdulbxri/",
-  },  
+  },
   {
     name: "Ruqyya Nazeene",
     role: "Member",
@@ -120,7 +120,7 @@ export const teamMembers: TeamMember[] = [
     year: "IV",
     image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739474330/Ruqyya_N_adcsov.jpg",
     linkedin: "https://www.linkedin.com/in/ruqyya-nazeene-907947292",
-  },      
+  },
   {
     name: "Zaina Afreen A.P",
     role: "Member",
@@ -136,7 +136,7 @@ export const teamMembers: TeamMember[] = [
     year: "IV",
     image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739469252/kamali.jpeg_s7r8fs.jpg",
     linkedin: "https://www.linkedin.com/in/kamali-k-10b4722bb/",
-  }, 
+  },
   /*{
     name: "Thaseem M",
     role: "Member",
@@ -144,7 +144,7 @@ export const teamMembers: TeamMember[] = [
     year: "IV",
     image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739472759/thaseem_kadavullae_w5fwdd.jpg",
     linkedin: "https://www.linkedin.com/in/thaseem-m-6136b92a4",
-  }, */     
+  }, */
   {
     name: "Sweatha S",
     role: "Member",
@@ -152,7 +152,7 @@ export const teamMembers: TeamMember[] = [
     year: "IV",
     image: "https://res.cloudinary.com/douhcccb7/image/upload/v1739634046/WhatsApp_Image_2025-02-15_at_8.02.04_PM_xkp51u.jpg",
     linkedin: "https://www.linkedin.com/in/sweatha-singaravelu-60710b294",
-  }, 
+  },
   /*{
     name: "Mohammed Zabeer. Z",
     role: "Member",
@@ -170,44 +170,44 @@ export const teamMembers: TeamMember[] = [
     linkedin: "https://www.linkedin.com/in/delhi-ganesh-4a76a9326",
   },*/
   {
-    name:"Abdul Gaffoor Asjad M",
-    role:"Member",
-    department:"Computer Science",
-    year:"III",
+    name: "Abdul Gaffoor Asjad M",
+    role: "Member",
+    department: "Computer Science",
+    year: "III",
     image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739474332/Abdul_Gaffoor_Asjad_d9uolc.jpg",
     linkedin: "https://www.linkedin.com/in/abdul-gaffoor-asjad-b6b2412a6",
   },
   {
-    name:"Mohammed Ayaz.A",
-    role:"Advisor",
-    department:"Computer Science",
-    year:"III",
-    image: "https://res.cloudinary.com/douhcccb7/image/upload/v1739635218/IMG_20250214_150709_udztnu.jpg",
-    linkedin:"https://www.linkedin.com/in/mohammed-ayaz-2b16062a5",
+    name: "Mohammed Ayaz.A",
+    role: "Advisor",
+    department: "Computer Science",
+    year: "III",
+    image: "https://res.cloudinary.com/doknhsy61/image/upload/v1774980440/ayaz_bro_nleyhn.jpg",
+    linkedin: "https://www.linkedin.com/in/mohammed-ayaz-2b16062a5",
   },
   {
-    name:"Mohammed Abuzar J",
-    role:"Member",
-    department:"Computer Science",
-    year:"III",
+    name: "Mohammed Abuzar J",
+    role: "Member",
+    department: "Computer Science",
+    year: "III",
     image: "https://res.cloudinary.com/douhcccb7/image/upload/v1739525912/WhatsApp_Image_2025-02-14_at_5.06.32_AM_nasmey.jpg",
     linkedin: "https://www.linkedin.com/in/md-abuzar-1892882a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
-      name:"Shafifa Naaz.D",
-      role:"Member",
-      department:"Information Technology",
-      year:"III",
-      image: "https://res.cloudinary.com/douhcccb7/image/upload/v1739638247/WhatsApp_Image_2025-02-15_at_10.07.35_PM_zn9aaw.jpg",
-      linkedin: "https://www.linkedin.com/in/shafifa-naaz-7442472a6",
+    name: "Shafifa Naaz.D",
+    role: "Member",
+    department: "Information Technology",
+    year: "III",
+    image: "https://res.cloudinary.com/douhcccb7/image/upload/v1739638247/WhatsApp_Image_2025-02-15_at_10.07.35_PM_zn9aaw.jpg",
+    linkedin: "https://www.linkedin.com/in/shafifa-naaz-7442472a6",
   },
   {
-      name:"Mohammed Aasif",
-      role:"Member",
-      department:"Computer Science",
-      year:"III",
-      image: "https://res.cloudinary.com/devn2ez7p/image/upload/v1757828752/20250327_223412_y4ylwj.jpg",
-      linkedin: "https://www.linkedin.com/in/mohammed-aasif-6a36062a5",
+    name: "Mohammed Aasif",
+    role: "Member",
+    department: "Computer Science",
+    year: "III",
+    image: "https://res.cloudinary.com/devn2ez7p/image/upload/v1757828752/20250327_223412_y4ylwj.jpg",
+    linkedin: "https://www.linkedin.com/in/mohammed-aasif-6a36062a5",
 
   },
   {
@@ -216,57 +216,57 @@ export const teamMembers: TeamMember[] = [
     department: "Computer Science",
     year: "III",
     image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739469250/Kashif_Ul_haq_pgq5mb.jpg",
-    linkedin:"https://www.linkedin.com/in/kashif-ulhaq-a43956278?trk=contact-info",
+    linkedin: "https://www.linkedin.com/in/kashif-ulhaq-a43956278?trk=contact-info",
   },
   {
-    name:"Mudassir S F",
-    role:"Member",
-    department:"Artificial Intelligence & Data Science",
-    year:"III",
+    name: "Mudassir S F",
+    role: "Member",
+    department: "Artificial Intelligence & Data Science",
+    year: "III",
     image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739469242/Mohammed_Mudassir461_dwng1y.jpg",
-    linkedin:"https://www.linkedin.com/in/mohammed-mudassir-a3b6322a5",
+    linkedin: "https://www.linkedin.com/in/mohammed-mudassir-a3b6322a5",
   },
   {
-      
+
     name: "Mohamed Melhan K O",
     role: "Member",
     department: "Artificial Intelligence and Data Science",
     year: "III",
     image: "https://res.cloudinary.com/douhcccb7/image/upload/v1739634425/WhatsApp_Image_2025-02-15_at_6.12.28_PM_gnbkmu.jpg",
-    linkedin:"https://www.linkedin.com/in/mohamed-melhan-k-o-1bb3872a6",
+    linkedin: "https://www.linkedin.com/in/mohamed-melhan-k-o-1bb3872a6",
   },
   {
-      
+
     name: "Abishek ",
     role: "Member",
     department: "Information Technology",
     year: "III",
     image: "/placeholder.svg?height=200&width=200",
-    linkedin:"https://www.linkedin.com/in/"
+    linkedin: "https://www.linkedin.com/in/"
   },
   {
-      name:"Swetha V ",
-      role:"Member",
-      department:"Information Technology",
-      year:"III",
-      image: "https://res.cloudinary.com/douhcccb7/image/upload/v1739638258/WhatsApp_Image_2025-02-15_at_9.56.53_PM_s9oghq.jpg",
-      linkedin: "https://www.linkedin.com/in/",
+    name: "Swetha V ",
+    role: "Member",
+    department: "Information Technology",
+    year: "III",
+    image: "https://res.cloudinary.com/douhcccb7/image/upload/v1739638258/WhatsApp_Image_2025-02-15_at_9.56.53_PM_s9oghq.jpg",
+    linkedin: "https://www.linkedin.com/in/",
   },
   {
-      name:"Dhurga prasad S",
-      role:"Member",
-      department:"Electrical and Electronics Engineering ",
-      year:"III",
-      image: "https://res.cloudinary.com/douhcccb7/image/upload/v1739638236/WhatsApp_Image_2025-02-15_at_9.36.39_PM_uzlpgq.jpg",
-      linkedin: "https://www.linkedin.com/in/",
+    name: "Dhurga prasad S",
+    role: "Member",
+    department: "Electrical and Electronics Engineering ",
+    year: "III",
+    image: "https://res.cloudinary.com/douhcccb7/image/upload/v1739638236/WhatsApp_Image_2025-02-15_at_9.36.39_PM_uzlpgq.jpg",
+    linkedin: "https://www.linkedin.com/in/",
   },
   {
-      name:"Mohamed Abbas T A ",
-      role:"Member",
-      department:"Computer Science",
-      year:"III",
-      image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739474337/Mohammed_Abbas_z7hbpd.jpg",
-      linkedin: "https://www.linkedin.com/in/",
+    name: "Mohamed Abbas T A ",
+    role: "Member",
+    department: "Computer Science",
+    year: "III",
+    image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739474337/Mohammed_Abbas_z7hbpd.jpg",
+    linkedin: "https://www.linkedin.com/in/",
   },
   {
     name: "Mukesh D",
@@ -279,13 +279,13 @@ export const teamMembers: TeamMember[] = [
 
   {
     name: "Zakwan Haaziq",
-    role: "Alumini",
+    role: "Member",
     department: "Computer Science",
     year: "II",
-    image: "https://res.cloudinary.com/dr9er64nu/image/upload/v1774895274/IMG-20260330-WA0021_htzhro.jpg",
+    image: "https://res.cloudinary.com/doknhsy61/image/upload/v1774979951/zakwan.jpg",
     linkedin: "https://www.linkedin.com/in/",
   },
-   {
+  {
     name: "GOKUL S",
     role: "Member",
     department: "Information Technology",
@@ -293,7 +293,7 @@ export const teamMembers: TeamMember[] = [
     image: "https://gokuls2028.neocities.org/WhatsApp%20Image%202026-03-31%20at%2000.22.531.jpeg",
     linkedin: "https://www.linkedin.com/in/gokul-s202428/",
   },
-      
+
   {
     name: "Mohammed Yasar M",
     role: "Member",
@@ -302,6 +302,7 @@ export const teamMembers: TeamMember[] = [
     image: "https://res.cloudinary.com/djm8qhle1/image/upload/f_auto,q_auto/Screenshot_2026-03-31_163341_uwuv0c",
     linkedin: "www.linkedin.com/in/mohammed-yasar-28b821334",
   },
+
   {
   name: "R.Banusree",
   role: "Member",
