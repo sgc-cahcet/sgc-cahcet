@@ -302,5 +302,14 @@ export const teamMembers: TeamMember[] = [
     image: "https://res.cloudinary.com/djm8qhle1/image/upload/f_auto,q_auto/Screenshot_2026-03-31_163341_uwuv0c",
     linkedin: "www.linkedin.com/in/mohammed-yasar-28b821334",
   },
+
+  {
+    name: "Mohamed Zahangir",
+    role: "Member",
+    department: "Artificial Intelligence and Data Science",
+    year: "II",
+    image: "https://res.cloudinary.com/drgwlnf67/image/upload/f_auto,q_auto/dcb3e81a-ec96-49ea-aad0-05ad796b053e_rifahc",
+    linkedin: "https://www.linkedin.com/in/mohd-zahangir-ali-molla/",
+  },
   
 ]
