@@ -327,5 +327,13 @@ export const teamMembers: TeamMember[] = [
     image: "https://res.cloudinary.com/dnbifmfhl/image/upload/v1774977981/WhatsApp_Image_2026-03-31_at_10.45.05_PM_rzanjh.jpg",
     linkedin: "https://www.linkedin.com/in/samiiksha-c",
   }
+  {
+    name: "Afra Naushine",
+    role: "Member",
+    department: "Computer Science and Engineering",
+    year: "II",
+    image: "https://res.cloudinary.com/dnxvo9np0/image/upload/v1775233033/WhatsApp_Image_2026-04-03_at_9.45.33_PM_mqbcte.jpg",
+    linkedin: "linkedin.com/in/afra-naushine",
+  },
   
 ]
