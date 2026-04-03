@@ -327,5 +327,13 @@ export const teamMembers: TeamMember[] = [
     image: "https://res.cloudinary.com/dnbifmfhl/image/upload/v1774977981/WhatsApp_Image_2026-03-31_at_10.45.05_PM_rzanjh.jpg",
     linkedin: "https://www.linkedin.com/in/samiiksha-c",
   }
+  {
+    name: "Pooja Sri M",
+    role: "Member",
+    department: "Computer Science and Engineering",
+    year: "II",
+    image: "https://res.cloudinary.com/dxdieopb8/image/upload/v1775223179/pooja_pic_kt3mta.jpg",
+    linkedin: "https://www.linkedin.com/in/pooja-sri-m-a52487379",
+  },
   
 ]
