@@ -80,7 +80,6 @@ We love contributions! Join us in enhancing the platform by following these simp
 
 ### 🎉 Meet Our Amazing Contributors! 🎉  
 A huge shout-out to everyone who has played a role in shaping this project. Your contributions fuel the growth and success of the SGC Web Application! 🚀
-
 [![Contributors](https://contrib.rocks/image?repo=sgc-cahcet/sgc-cahcet)](https://github.com/sgc-cahcet/sgc-cahcet/graphs/contributors)
 
 🔹 Want to see your name here? Start contributing today! 💡

@@ -4,20 +4,20 @@ import { motion } from "framer-motion";
 import { teamMembers } from "../../data/team_data";
 import { Linkedin } from "lucide-react";
 
-const getYearSuffix = (year: string) => {
+/*const getYearSuffix = (year: string) => {
   switch (year) {
     case "I":
-      return "st"
+      return ""
     case "II":
-      return "nd"
+      return ""
     case "III":
-      return "rd"
+      return ""
     case "IV":
-      return "th"
+      return ""
     default:
       return ""
   }
-}
+}*/
 
 const getRolePriority = (role: string) => {
   switch (role) {
@@ -25,10 +25,12 @@ const getRolePriority = (role: string) => {
       return 1
     case "Vice President":
       return 2
-    case "Advisor":
+    case "Administrator":
       return 3
-    default:
+    case "Advisor":
       return 4
+    default:
+      return 5
   }
 }
 
@@ -63,7 +65,7 @@ const sortedTeamMembers = [...teamMembers].sort((a, b) => {
 export default function Team() {
   return (
     <div>
-      <motion.h1 initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} className="text-4xl font-bold mb-8">
+      <motion.h1 initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} className="text-4xl font-bold mb-8 text-black dark:text-white">
         Our Team
       </motion.h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -73,25 +75,25 @@ export default function Team() {
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: index * 0.1 }}
-            className="neo-brutalism-white p-6 rounded-lg text-center"
+            className="bg-white dark:bg-gray-900 p-6 rounded-lg text-center border-2 border-black dark:border-gray-700"
           >
             <img
               src={member.image || "/placeholder.svg"}
               alt={member.name}
               className="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-yellow-400"
             />
-            <h2 className="text-2xl font-bold mb-2 text-black">{member.name}</h2>
-            <p className="text-lg text-gray-600 mb-1">{member.role}</p>
-            <p className="text-sm text-gray-500 mb-4">
+            <h2 className="text-2xl font-bold mb-2 text-black dark:text-white">{member.name}</h2>
+            <p className="text-lg text-gray-600 dark:text-gray-300 mb-1">{member.role}</p>
+            <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
               {member.year}
-              <sup>{getYearSuffix(member.year)}</sup> Year, {member.department}
+              {/*<sup>{getYearSuffix(member.year)}</sup>*/} Year, {member.department}
             </p>
             {member.linkedin && (
               <a
                 href={member.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center text-blue-600 hover:underline"
+                className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:underline"
               >
                 <Linkedin className="mr-1" size={16} /> LinkedIn
               </a>

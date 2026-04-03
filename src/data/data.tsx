@@ -2,15 +2,15 @@ import { link } from "fs"
 
 export const announcements = [
     {
-      title: "SGC Sessions are opening soon!",
-      content: "SGC Sessions will setting back to regular academics sessions from 19th February 2025.",
+      title: "SGC Sessions 2025–2026 (Odd Semester) are Now Open!",
+      content: "The SGC Sessions for the 2025–2026 Odd Semester commenced on 4th August 2025 and are being conducted regularly.",
       link: ""
-
     },
+
     {
       title: "SGC Recruitment 2025",
-      content: "Applications for the SGC Recruitment 2025 are opening soon for first years. Stay Tuned!",
-      link: ""
+      content: "Recruitment for Students Guidance Cell (SGC) - for II year students will start from 11th September 2025. Registrations open soon.",
+      link: "/join"
     },
     {
       title: "Announcement of Revibe 2025",

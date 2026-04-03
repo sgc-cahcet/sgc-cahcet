@@ -338,9 +338,9 @@ const Home: React.FC = () => {
       {/* Navigation Section */}
       <section className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 mb-8 md:mb-16">
         {[
-          { name: "About", icon: "🔍", color: "bg-blue-100 dark:bg-white" },
-          { name: "Team", icon: "👥", color: "bg-green-100 dark:bg-white" },
-          { name: "Events", icon: "🎉", color: "bg-purple-100 dark:bg-white" }
+          { name: "About", icon: "🔍", color: "bg-blue-100 dark:bg-gray-900" },
+          { name: "Team", icon: "👥", color: "bg-green-100 dark:bg-gray-900" },
+          { name: "Events", icon: "🎉", color: "bg-purple-100 dark:bg-gray-900" }
         ].map((item, index) => (
           <motion.div
             key={item.name}
@@ -352,11 +352,11 @@ const Home: React.FC = () => {
             className={`${item.color} p-4 md:p-8 rounded-2xl border-4 border-black dark:border-gray-700 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] dark:shadow-[6px_6px_0px_0px_rgba(255,255,255,0.2)] transform transition-all duration-300`}
           >
             <div className="text-3xl md:text-4xl mb-2 md:mb-4">{item.icon}</div>
-            <h3 className="text-2xl md:text-3xl font-bold mb-2 md:mb-3 font-poppins text-black">{item.name}</h3>
-            <p className="mb-4 md:mb-6 text-gray-700 dark:text-gray-500 text-base md:text-lg">Learn more about our {item.name.toLowerCase()}.</p>
+            <h3 className="text-2xl md:text-3xl font-bold mb-2 md:mb-3 font-poppins text-black dark:text-white">{item.name}</h3>
+            <p className="mb-4 md:mb-6 text-gray-700 dark:text-gray-400 text-base md:text-lg">Learn more about our {item.name.toLowerCase()}.</p>
             <Link 
               href={`/${item.name.toLowerCase()}`}
-              className="inline-flex items-center bg-black dark:bg-white text-white dark:text-black py-2 md:py-3 px-4 md:px-5 rounded-lg text-base md:text-lg font-medium border-2 border-black shadow-[3px_3px_0px_0px_rgba(59,130,246,1)] dark:shadow-[3px_3px_0px_0px_rgba(147,51,234,1)] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none transition-all"
+              className="inline-flex items-center bg-white dark:bg-gray-900 text-black dark:text-white py-2 md:py-3 px-4 md:px-5 rounded-lg text-base md:text-lg font-medium border-2 border-black dark:border-gray-700 shadow-[3px_3px_0px_0px_rgba(59,130,246,1)] dark:shadow-[3px_3px_0px_0px_rgba(147,51,234,1)] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none transition-all"
             >
               <motion.span whileHover={{ x: 5 }} className="inline-flex items-center">
                 Explore {item.name} <ChevronRight className="ml-1" />

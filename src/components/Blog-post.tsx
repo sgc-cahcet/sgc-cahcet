@@ -129,7 +129,7 @@ const BlogSection = () => {
 
   if (error) {
     return (
-      <section className="neo-brutalism-white dark:neo-brutalism-dark p-4 md:p-8 rounded-lg">
+      <section className="bg-white dark:bg-gray-900 p-4 md:p-8 rounded-lg border-2 border-black dark:border-gray-700">
         <div className="text-center text-red-600 dark:text-red-400 p-4">
           {error}
         </div>
@@ -141,7 +141,7 @@ const BlogSection = () => {
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      className="text-center py-8 md:py-16 px-4"
+      className="text-center py-8 md:py-16 px-4 bg-white dark:bg-gray-900 rounded-lg border-2 border-black dark:border-gray-700"
     >
       <motion.div
         animate={{ 
@@ -155,22 +155,22 @@ const BlogSection = () => {
         }}
         className="inline-block mb-4 md:mb-6"
       >
-        <Sparkles className="w-12 h-12 md:w-16 md:h-16 text-blue-500" />
+        <Sparkles className="w-12 h-12 md:w-16 md:h-16 text-blue-500 dark:text-yellow-400" />
       </motion.div>
-      <h3 className="text-xl md:text-2xl font-bold mb-3 md:mb-4 text-black">No Articles Yet! ✨</h3>
+      <h3 className="text-xl md:text-2xl font-bold mb-3 md:mb-4 text-black dark:text-white">No Articles Yet! ✨</h3>
       <p className="text-sm md:text-base text-gray-600 dark:text-gray-400 mb-2">
         We're cooking up something amazing! 🚀
       </p>
-      <p className="text-xs md:text-sm text-gray-500 dark:text-gray-500">
+      <p className="text-xs md:text-sm text-gray-500 dark:text-gray-400">
         Stay tuned for exciting content coming your way! 🌟
       </p>
     </motion.div>
   );
 
   return (
-    <section className="neo-brutalism-white dark:neo-brutalism-dark p-4 md:p-8 rounded-lg space-y-4 md:space-y-8">
+    <section className="bg-white dark:bg-gray-900 p-4 md:p-8 rounded-lg border-2 border-black dark:border-gray-700 space-y-4 md:space-y-8">
       <div className="flex justify-between items-center mb-4 md:mb-8">
-        <h2 className="text-xl md:text-3xl font-bold font-poppins text-black">
+        <h2 className="text-xl md:text-3xl font-bold font-poppins text-black dark:text-white">
           Latest from our Blog
         </h2>
         <Link 
