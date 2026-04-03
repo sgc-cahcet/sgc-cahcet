@@ -22,7 +22,7 @@ export const teamMembers: TeamMember[] = [
     role: "Vice President",
     department: "Information technology",
     year: "IV",
-    image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739469378/dhanush_2_1_cflvai.png",
+    image: "https://avatars.githubusercontent.com/u/128817931?v=4",
     linkedin: "https://www.linkedin.com/in/dhanushkandhan/",
   },
   {
