@@ -263,4 +263,12 @@ export const teamMembers: TeamMember[] = [
       image: "https://res.cloudinary.com/dxdieopb8/image/upload/v1775223179/pooja_pic_kt3mta.jpg",
       linkedin: "https://www.linkedin.com/in/pooja-sri-m-a52487379",
   },
+  {
+    name: "Raja Rajeswari S",
+    role: "Member",
+    department: "Artificial Intelligence and Data Science",
+    year: "II",
+    image: "https://res.cloudinary.com/dkkwzmq9j/image/upload/v1775242757/WhatsApp_Image_2026-04-04_at_00.28.19_yeeivy.jpg",
+    linkedin: " https://www.linkedin.com/in/raja-rajeswari-srinivasan-10711b3b0",
+  },
 ]
