@@ -244,6 +244,18 @@ export const teamMembers: TeamMember[] = [
     role: "Member",
     department: "Computer Science",
     year: "II",
+    image: "https://res.cloudinary.com/dnbifmfhl/image/upload/v1774977981/WhatsApp_Image_2026-03-31_at_10.45.05_PM_rzanjh.jpg",
+    linkedin: "https://www.linkedin.com/in/samiiksha-c",
+  }
+  {
+    name: "Afra Naushine",
+    role: "Member",
+    department: "Computer Science and Engineering",
+    year: "II",
+    image: "https://res.cloudinary.com/dnxvo9np0/image/upload/v1775233033/WhatsApp_Image_2026-04-03_at_9.45.33_PM_mqbcte.jpg",
+    linkedin: "linkedin.com/in/afra-naushine",
+  },
+  
     image: "https://res.cloudinary.com/dvfzsmzbt/image/upload/f_auto,q_auto/R_BANUSREE_iexzmz" ,
     linkedin: "https://www.linkedin.com/in/r-banu-sree-5893a9379/",
   },
@@ -271,4 +283,12 @@ export const teamMembers: TeamMember[] = [
     image: "https://res.cloudinary.com/dkkwzmq9j/image/upload/v1775242757/WhatsApp_Image_2026-04-04_at_00.28.19_yeeivy.jpg",
     linkedin: " https://www.linkedin.com/in/raja-rajeswari-srinivasan-10711b3b0",
   },
+    name: "Affan Basha A",
+    role: "Member",
+    department: "Information Technology",
+    year: "II",
+    image: "https://res.cloudinary.com/ddnp2f5jj/image/upload/v1775237222/PHOTO-2026-04-03-22-43-10_sqfz1i.jpg",
+    linkedin: "www.linkedin.com/in/affan-basha-18068633a",
+  },
+
 ]
