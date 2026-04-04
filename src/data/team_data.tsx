@@ -276,6 +276,13 @@ export const teamMembers: TeamMember[] = [
       linkedin: "https://www.linkedin.com/in/pooja-sri-m-a52487379",
   },
   {
+    name: "Raja Rajeswari S",
+    role: "Member",
+    department: "Artificial Intelligence and Data Science",
+    year: "II",
+    image: "https://res.cloudinary.com/dkkwzmq9j/image/upload/v1775242757/WhatsApp_Image_2026-04-04_at_00.28.19_yeeivy.jpg",
+    linkedin: " https://www.linkedin.com/in/raja-rajeswari-srinivasan-10711b3b0",
+  },
     name: "Affan Basha A",
     role: "Member",
     department: "Information Technology",
