@@ -244,8 +244,8 @@ export const teamMembers: TeamMember[] = [
     role: "Member",
     department: "Computer Science",
     year: "II",
-    image: "https://res.cloudinary.com/dnbifmfhl/image/upload/v1774977981/WhatsApp_Image_2026-03-31_at_10.45.05_PM_rzanjh.jpg",
-    linkedin: "https://www.linkedin.com/in/samiiksha-c",
+    image: "https://res.cloudinary.com/dvfzsmzbt/image/upload/f_auto,q_auto/R_BANUSREE_iexzmz",
+    linkedin: "https://www.linkedin.com/in/r-banu-sree-5893a9379/",
   },
   {
     name: "Afra Naushine",
