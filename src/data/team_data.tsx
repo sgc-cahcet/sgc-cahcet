@@ -290,7 +290,7 @@ export const teamMembers: TeamMember[] = [
     role: "Member",
     department: "Information Technology",
     year: "II",
-    image: "file:///E:/GOKUL/pics/WhatsApp%20Image%202026-03-31%20at%2000.22.5311.jpeg",
+    image: "https://gokuls2028.neocities.org/sgc.jpeg",
     linkedin: "https://www.linkedin.com/in/gokul-s202428/",
   },
       
