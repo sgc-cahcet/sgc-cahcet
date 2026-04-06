@@ -1,5 +1,12 @@
 export const events = [
     // Add the Events with repect to date format of (YYYY-MM-DD) Ex. "2025-02-02"
+     {
+        name: "SGC Trainee Recruitment Drive 2026",
+        description: "We successfully conducted the Student Guidance Cell (SGC) Recruitment Drive, offering trainee opportunities to enthusiastic students eager to be part of our team. Through a structured selection process, we identified passionate and capable individuals. We are proud to have executed the event smoothly, marking another step towards strengthening our SGC community.",
+        date: "2026-03-24",
+        image: "https://res.cloudinary.com/drgwlnf67/image/upload/v1775480924/IMG_20260326_133551_kjhukj.jpg",
+        link: "https://www.linkedin.com/posts/studentguidancecell-cahcet_studentsguidancecell-sgc-hiring-activity-7441861224826515456-Zlfj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFC3TJMBgddb2XkoAqrMwgavyuA1j0w-W8A",
+      },
       {
         name: "Critical Thinking Workshop 2025",
         description: "We at the Student Guidance Cell (SGC), C. Abdul Hakeem College of Engineering & Technology, organized the 'Critical Thinking' workshop for first-year students. The session featured engaging puzzles, group activities, and the game 'Think Out of the Box,' helping students develop problem-solving, creative thinking, and decision-making skills. Guest speakers Mr. Tejesh Pichandi (Founder, HangouTech Pvt. Ltd.) and Mr. Mohammed Zabeer. Z (Public Speaker & Ph.D. Aspirant) shared inspiring insights on innovation, goal-setting, and a growth mindset.",
