@@ -269,7 +269,7 @@ export const teamMembers: TeamMember[] = [
     department: "Information Technology",
     year: "II",
     image: "https://res.cloudinary.com/ddnp2f5jj/image/upload/v1775237222/PHOTO-2026-04-03-22-43-10_sqfz1i.jpg",
-    linkedin: "www.linkedin.com/in/affan-basha-18068633a",
+    linkedin: "www.linkedin.com/in/affanbasha",
   },
 
 ]
