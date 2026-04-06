@@ -1,4 +1,3 @@
-//Important Instructions: Add the team members with the following format
 export interface TeamMember {
   name: string;
   role: string;
@@ -119,7 +118,7 @@ export const teamMembers: TeamMember[] = [
     department: "Computer Science",
     year: "III",
     image: "https://res.cloudinary.com/douhcccb7/image/upload/v1739525912/WhatsApp_Image_2025-02-14_at_5.06.32_AM_nasmey.jpg",
-    linkedin: "https://www.linkedin.com/in/md-abuzar-1892882a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    linkedin: "https://www.linkedin.com/in/md-abuzar-1892882a6/",
   },
   {
     name: "Shafifa Naaz.D",
@@ -136,7 +135,6 @@ export const teamMembers: TeamMember[] = [
     year: "III",
     image: "https://res.cloudinary.com/devn2ez7p/image/upload/v1757828752/20250327_223412_y4ylwj.jpg",
     linkedin: "https://www.linkedin.com/in/mohammed-aasif-6a36062a5",
-
   },
   {
     name: "Kashif Ulhaq K",
@@ -155,7 +153,6 @@ export const teamMembers: TeamMember[] = [
     linkedin: "https://www.linkedin.com/in/mohammed-mudassir-a3b6322a5",
   },
   {
-
     name: "Mohamed Melhan K O",
     role: "Member",
     department: "Artificial Intelligence and Data Science",
@@ -164,21 +161,20 @@ export const teamMembers: TeamMember[] = [
     linkedin: "https://www.linkedin.com/in/mohamed-melhan-k-o-1bb3872a6",
   },
   {
-
     name: "Abishek ",
     role: "Member",
     department: "Information Technology",
     year: "III",
     image: "/placeholder.svg?height=200&width=200",
-    linkedin: "https://www.linkedin.com/in/"
+    linkedin: "https://www.linkedin.com/in/ak-abishek/",
   },
   {
-    name: "Swetha V ",
+    name: "Swetha V",
     role: "Member",
     department: "Information Technology",
     year: "III",
     image: "https://res.cloudinary.com/douhcccb7/image/upload/v1739638258/WhatsApp_Image_2025-02-15_at_9.56.53_PM_s9oghq.jpg",
-    linkedin: "https://www.linkedin.com/in/",
+    linkedin: "https://www.linkedin.com/in/swetha-venkatesan-7b32492a6/",
   },
   {
     name: "Dhurga prasad S",
@@ -189,12 +185,12 @@ export const teamMembers: TeamMember[] = [
     linkedin: "https://www.linkedin.com/in/",
   },
   {
-    name: "Mohamed Abbas T A ",
+    name: "Mohamed Abbas T A",
     role: "Member",
     department: "Computer Science",
     year: "III",
     image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1739474337/Mohammed_Abbas_z7hbpd.jpg",
-    linkedin: "https://www.linkedin.com/in/",
+    linkedin: "https://www.linkedin.com/in/mohamed-abbas-46b49a2a5/",
   },
   {
     name: "Mukesh D",
@@ -202,35 +198,32 @@ export const teamMembers: TeamMember[] = [
     department: "Artificial Intelligence and Data Science",
     year: "IV",
     image: "https://res.cloudinary.com/douhcccb7/image/upload/v1739634589/WhatsApp_Image_2025-02-08_at_5.11.29_AM_hk33pe.jpg",
-    linkedin: "https://www.linkedin.com/in/",
+    linkedin: "https://www.linkedin.com/in/mukesh1014325/",
   },
-
   {
     name: "Zakwan Haaziq",
     role: "Member",
     department: "Computer Science",
     year: "II",
     image: "https://res.cloudinary.com/doknhsy61/image/upload/v1774979951/zakwan.jpg",
-    linkedin: "https://www.linkedin.com/in/",
+    linkedin: "https://www.linkedin.com/in/zakwan-haaziq-533392322/",
   },
   {
-    name: "GOKUL S",
+    name: "Gokul S",
     role: "Member",
     department: "Information Technology",
     year: "II",
     image: "https://gokuls2028.neocities.org/sgc.jpeg",
     linkedin: "https://www.linkedin.com/in/gokul-s202428/",
   },
-
   {
     name: "Mohammed Yasar M",
     role: "Member",
     department: "Artificial Intelligence and Data Science",
     year: "II",
     image: "https://res.cloudinary.com/djm8qhle1/image/upload/f_auto,q_auto/Screenshot_2026-03-31_163341_uwuv0c",
-    linkedin: "www.linkedin.com/in/mohammed-yasar-28b821334",
+    linkedin: "https://www.linkedin.com/in/mohammed-yasar-28b821334",
   },
-
   {
     name: "Mohamed Zahangir",
     role: "Member",
@@ -253,7 +246,7 @@ export const teamMembers: TeamMember[] = [
     department: "Computer Science and Engineering",
     year: "II",
     image: "https://res.cloudinary.com/dnxvo9np0/image/upload/v1775233033/WhatsApp_Image_2026-04-03_at_9.45.33_PM_mqbcte.jpg",
-    linkedin: "linkedin.com/in/afra-naushine",
+    linkedin: "https://www.linkedin.com/in/afra-naushine",
   },
   {
     name: "Samiiksha C",
@@ -277,7 +270,7 @@ export const teamMembers: TeamMember[] = [
     department: "Artificial Intelligence and Data Science",
     year: "II",
     image: "https://res.cloudinary.com/dkkwzmq9j/image/upload/v1775242757/WhatsApp_Image_2026-04-04_at_00.28.19_yeeivy.jpg",
-    linkedin: " https://www.linkedin.com/in/raja-rajeswari-srinivasan-10711b3b0",
+    linkedin: "https://www.linkedin.com/in/raja-rajeswari-srinivasan-10711b3b0",
   },
   {
     name: "Affan Basha A",
@@ -285,7 +278,6 @@ export const teamMembers: TeamMember[] = [
     department: "Information Technology",
     year: "II",
     image: "https://res.cloudinary.com/ddnp2f5jj/image/upload/v1775237222/PHOTO-2026-04-03-22-43-10_sqfz1i.jpg",
-    linkedin: "www.linkedin.com/in/affanbasha",
+    linkedin: "https://www.linkedin.com/in/affanbasha",
   },
-
-]
+];
