@@ -133,7 +133,7 @@ export const teamMembers: TeamMember[] = [
       role:"Member",
       department:"Computer Science",
       year:"III",
-      image: "https://res.cloudinary.com/devn2ez7p/image/upload/v1775494301/sgc-prof3_osksup.jpg",
+      image: "https://res.cloudinary.com/devn2ez7p/image/upload/v1775848817/WA_1775848777544_lo4msf.jpg",
       linkedin: "https://www.linkedin.com/in/mohammed-aasif-6a36062a5",
 
   },
