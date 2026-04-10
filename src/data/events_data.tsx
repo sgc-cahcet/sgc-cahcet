@@ -8,6 +8,13 @@ export const events = [
         link: "https://www.linkedin.com/posts/studentguidancecell-cahcet_studentsguidancecell-sgc-hiring-activity-7441861224826515456-Zlfj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFC3TJMBgddb2XkoAqrMwgavyuA1j0w-W8A",
       },
     {
+        name: "Build X AI",
+        discription: "We conducted the BUILD X Al workshop for first-year students, introducing them to the practical world of Artificial Intelligence and modern Al tools.The workshop witnessed the participation of around 480+ first-year students, showing tremendous enthusiasm to explore the possibilities of Al.To ensure smooth coordination and effective interaction, the participants were organized into 8 teams, with around 60 students in each team. This structure helped create an energetic and collaborative learning environment throughout the workshop.",  
+        date: "2026-03-04",
+        image: "https://res.cloudinary.com/djm8qhle1/image/upload/f_auto,q_auto/Build_X_AI_z96exu",
+        link:"https://www.linkedin.com/posts/studentguidancecell-cahcet_studentguidancecell-buildxai-ai-activity-7435661329157279744-LNju?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAEZUDCABpTx_CK1FM9rpOV9zrSrvwh2jx8c&utm_campaign=whatsapp",
+      },
+    {
         name: "SGC Trainee Recruitment Drive 2025",
         description: "We successfully conducted the Student Guidance Cell (SGC) Recruitment Drive, offering trainee opportunities to enthusiastic students eager to be part of our team. Through a structured selection process, we identified passionate and capable individuals. We are proud to have executed the event smoothly, marking another step towards strengthening our SGC community.",
         date: "2025-09-11",
