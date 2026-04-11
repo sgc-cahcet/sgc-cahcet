@@ -109,7 +109,7 @@ export const teamMembers: TeamMember[] = [
     role: "Advisor",
     department: "Computer Science",
     year: "III",
-    image: "https://res.cloudinary.com/dmthfrsuo/image/upload/v1775815599/WhatsApp_Image_2026-03-01_at_4.51.45_PM_iqiiej.jpg",
+    image: "https://res-console.cloudinary.com/dmthfrsuo/thumbnails/transform/v1/image/upload/Y19maWxsLGhfMjAwLHdfMjAw/v1/U2NyZWVuc2hvdF8yMDI2LTA0LTExLTExLTUzLTA0LTk5Nl9jb20ubWl1aS5nYWxsZXJ5LWVkaXRfcnVubWo5/template_primary",
     linkedin: "https://www.linkedin.com/in/mohammed-ayaz-2b16062a5",
   },
   {
