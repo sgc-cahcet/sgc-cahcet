@@ -2,6 +2,14 @@ export const events = [
   // Add the Events with respect to date format of (YYYY-MM-DD) Ex. "2025-02-02"
 
   {
+    name: "Mock Interview Session",
+    description: "We conducted a Mock Interview Session covering Software Engineering, UI/UX Design, and Digital Marketing roles. The session aimed to provide students with real-world interview experience and preparation. Participants showed great enthusiasm, professionalism, and a strong willingness to improve. The event successfully helped members gain confidence and readiness for upcoming placements.",
+    date: "2026-04-19",
+    image: "https://res.cloudinary.com/dnbifmfhl/image/upload/v1776869925/Screenshot_2026-04-19_161132_ehw4hf.png",
+    link: "https://www.linkedin.com/posts/studentguidancecell-cahcet_mock-interview-event-sgc-ugcPost-7451624302623227904-VhRY"
+  },
+
+  {
     name: "SGC Trainee Recruitment Drive 2026",
     description:
       "We successfully conducted the Student Guidance Cell (SGC) Recruitment Drive, offering trainee opportunities to enthusiastic students eager to be part of our team. Through a structured selection process, we identified passionate and capable individuals. We are proud to have executed the event smoothly, marking another step towards strengthening our SGC community.",
