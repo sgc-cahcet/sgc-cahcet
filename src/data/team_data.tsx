@@ -57,14 +57,6 @@ export const teamMembers: TeamMember[] = [
     linkedin: "https://www.linkedin.com/in/lovely-gameing-155535258",
   },
   {
-    name: "Abdul Bari N",
-    role: "Administrator",
-    department: "Computer Science",
-    year: "IV",
-    image: "https://pub-a6554aaff6ec453fb80fff43d882309c.r2.dev/abdulbari.jpg",
-    linkedin: "https://www.linkedin.com/in/abdulbxri/",
-  },
-  {
     name: "Ruqyya Nazeene",
     role: "Member",
     department: "Artificial Intelligence and Data Science",
