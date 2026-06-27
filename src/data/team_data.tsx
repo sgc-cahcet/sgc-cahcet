@@ -154,12 +154,12 @@ export const teamMembers: TeamMember[] = [
     linkedin: "https://www.linkedin.com/in/afra-naushine",
   },
   {
-    name: "SamIIIksha C",
+    name: "Samiiksha C",
     role: "Member",
     department: "Computer Science and Engineering",
     year: "III",
     image: "https://res.cloudinary.com/dnbifmfhl/image/upload/v1774977981/WhatsApp_Image_2026-03-31_at_10.45.05_PM_rzanjh.jpg",
-    linkedin: "https://www.linkedin.com/in/samIIIksha-c",
+    linkedin: "https://www.linkedin.com/in/samiiksha-c",
   },
   {
     name: "Pooja Sri M",
