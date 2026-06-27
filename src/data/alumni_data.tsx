@@ -14,6 +14,79 @@ export type AlumniYear = {
 // Enter the data for our alumni here..
 export const alumni = [
   {
+    year: "2026",
+    members: [
+        {
+          name: "Abubakkar Siddiq",
+          department: "IT",
+          currentPosition: "System Engineer at TCS",
+          contact: "https://www.linkedin.com/in/abubakkarsiddiq17/"
+        },
+        {
+          name: "Dhanush Kandhan",
+          department: "IT",
+          currentPosition: "Product Builder at Letretro",
+          contact: "https://www.linkedin.com/in/dhanushkandhan/"
+        },
+        {
+          name: "Harish G",
+          department: "EEE",
+          currentPosition: "N/A",
+          contact: "https://www.linkedin.com/in/harish-g-a4b0b8294/"
+        },
+        {
+          name: "Samreen Humera",
+          department: "AIDS",
+          currentPosition: "N/A",
+          contact: "https://www.linkedin.com/in/samreen-humera-546223294"
+        },
+        {
+          name: "Syed Naveeth S N",
+          department: "AIDS",
+          currentPosition: "Team Coordinator at ORVIONAR",
+          contact: "https://www.linkedin.com/in/syed-naveeth-0b72a2294"
+        },
+        {
+          name: "Abishek P",
+          department: "MECH",
+          currentPosition: "N/A",
+          contact: "https://www.linkedin.com/in/lovely-gameing-155535258"
+        },
+        {
+          name: "Ruqyya Nazeene",
+          department: "AIDS",
+          currentPosition: "N/A",
+          contact: "https://www.linkedin.com/in/ruqyya-nazeene-907947292"
+        },
+        {
+          name: "Zaina Afreen A.P",
+          department: "CSE",
+          currentPosition: "N/A",
+          contact: ""
+        },
+        {
+          name: "Kamali K",
+          department: "IT",
+          currentPosition: "N/A",
+          contact: "https://www.linkedin.com/in/kamali-k-10b4722bb/"
+        },
+        {
+          name: "Sweatha S",
+          department: "CSE",
+          currentPosition: "N/A",
+          contact: "https://www.linkedin.com/in/sweatha-singaravelu-60710b294"
+        },
+        {
+          name: "Mukesh D",
+          department: "AIDS",
+          currentPosition: "N/A",
+          contact: "https://www.linkedin.com/in/mukesh1014325/"
+        }
+
+
+    ]
+  },
+  {
     year: "2025",
     members: [
         {
