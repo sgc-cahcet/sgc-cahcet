@@ -29,8 +29,14 @@ const getRolePriority = (role: string) => {
       return 3
     case "Advisor":
       return 4
-    default:
+    case "Social Media Lead":
       return 5
+    case "COC Moderator":
+      return 6
+    case "Session Handler":
+      return 7
+    default:
+      return 8
   }
 }
 
