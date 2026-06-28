@@ -1,23 +1,46 @@
 import { link } from "fs"
 
 export const announcements = [
-    {
-      title: "SGC Sessions 2025–2026 (Odd Semester) are Now Open!",
-      content: "The SGC Sessions for the 2025–2026 Odd Semester commenced on 4th August 2025 and are being conducted regularly.",
-      link: ""
-    },
+  {
+    title: "🚀 SGC Sessions 2026–27 Commencing from 29 June 2026",
+    content:
+      "The Student Guidance Cell officially begins its 2026–27 activities from 29 June 2026 with technical, communication, and career development sessions.",
+    image: "/announcements/session.jpg",
+    link: "",
+  },
 
-    {
-      title: "SGC Recruitment 2025",
-      content: "Recruitment for Students Guidance Cell (SGC) - for II year students will start from 11th September 2025. Registrations open soon.",
-      link: "/join"
-    },
-    {
-      title: "Announcement of Revibe 2025",
-      content: "Stay Tuned for the announcement of Revibe 2025, the annual Symposium fest of SGC - CAHCET.",
-      link: ""
-    },
-  ]
+  {
+    title: "👥 New SGC Committee 2026–27 Announced",
+    content:
+      "Meet the newly appointed office bearers and committee members for the academic year 2026–27.",
+    image: "/announcements/committee.jpg",
+    link: "/team",
+  },
+
+  {
+    title: "🎉 Revibe 2K26 – Stay Tuned!",
+    content:
+      "Preparations are underway for Revibe 2K26, the official symposium of the Student Guidance Cell. Exciting updates coming soon.",
+    image: "/announcements/revibe.jpg",
+    link: "",
+  },
+
+  {
+    title: "🌟 New SGC Initiatives for 2026–27",
+    content:
+      "Introducing the new Social Media and Financial Development departments to strengthen SGC's growth and outreach.",
+    image: "/announcements/initiatives.jpg",
+    link: "",
+  },
+
+  {
+    title: "📅 Tentative SGC Academic Plan 2026–27 Released",
+    content:
+      "The tentative schedule for workshops, technical sessions, communication sessions, Revibe 2K26, Hackathon, and other activities has been prepared.",
+    image: "/announcements/academic.jpg",
+    link: "",
+  },
+];
   
   
   export const achievements = [

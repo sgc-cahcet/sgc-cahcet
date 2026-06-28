@@ -148,85 +148,104 @@ const Home: React.FC = () => {
       <HeroSection />
 
       {/* Important Announcements Section */}
-      <section className="p-4 md:p-8 rounded-2xl border-4 border-black dark:border-gray-700 bg-white dark:bg-gray-800 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] dark:shadow-[8px_8px_0px_0px_rgba(255,255,255,0.2)]">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4 md:mb-6 font-poppins text-black dark:text-white relative inline-block">
-          Important Announcements
-          <motion.div 
-            className="absolute -bottom-2 left-0 h-2 bg-yellow-400 rounded-full" 
-            initial={{ width: 0 }}
-            animate={{ width: '100%' }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-          />
-        </h2>
-        
-        <div className="relative"
-          onMouseEnter={() => setIsHovering(true)}
-          onMouseLeave={() => setIsHovering(false)}
-        >
-          <AnimatePresence mode="wait">
-            <motion.div
-              key={currentAnnouncement}
-              initial={{ opacity: 0, x: 50 }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: -50 }}
-              className="bg-yellow-100 dark:bg-blue-900 p-4 md:p-6 rounded-xl border-2 border-black dark:border-gray-600 min-h-[160px] md:min-h-[180px] flex flex-col justify-between"
-            >
-              <div>
-                <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-3 font-poppins">{announcements[currentAnnouncement].title}</h3>
-                <p className="text-base md:text-lg line-clamp-4 md:line-clamp-none">{announcements[currentAnnouncement].content}</p>
-              </div>
-              
-              {announcements[currentAnnouncement].link && (
-                <Link 
-                  href={announcements[currentAnnouncement].link} 
-                  className="inline-flex items-center mt-3 md:mt-4 text-blue-600 dark:text-blue-400 font-medium text-base md:text-lg hover:underline"
-                >
-                  Learn more <ExternalLink className="ml-1 h-4 w-4 md:h-5 md:w-5" />
-                </Link>
-              )}
-            </motion.div>
-          </AnimatePresence>
-          
-          {/* Navigation controls */}
-          <div className="flex justify-between mt-3 md:mt-4">
-            <motion.button
-              onClick={() => handleAnnouncementNavigation('prev')}
-              className="bg-black dark:bg-white text-white dark:text-black p-1 md:p-2 rounded-lg border-2 border-black dark:border-white"
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}
-            >
-              <ArrowLeft className="h-5 w-5 md:h-6 md:w-6" />
-            </motion.button>
-            
-            <div className="flex space-x-2">
-              {announcements.map((_, index) => (
-                <motion.button
-                  key={index}
-                  onClick={() => {
-                    setCurrentAnnouncement(index)
-                    startAnnouncementTimer()
-                  }}
-                  className={`h-2 w-2 md:h-3 md:w-3 rounded-full border border-black dark:border-white ${
-                    currentAnnouncement === index 
-                      ? 'bg-blue-500 dark:bg-purple-500' 
-                      : 'bg-gray-300 dark:bg-gray-600'
-                  }`}
-                  whileHover={{ scale: 1.2 }}
-                />
-              ))}
-            </div>
-            
-            <motion.button
-              onClick={() => handleAnnouncementNavigation('next')}
-              className="bg-black dark:bg-white text-white dark:text-black p-1 md:p-2 rounded-lg border-2 border-black dark:border-white"
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}
-            >
-              <ArrowRight className="h-5 w-5 md:h-6 md:w-6" />
-            </motion.button>
+
+<section className="p-4 md:p-8 rounded-2xl border-4 border-black dark:border-gray-700 bg-white dark:bg-gray-800 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] dark:shadow-[8px_8px_0px_0px_rgba(255,255,255,0.2)]">
+  <h2 className="text-3xl md:text-4xl font-bold mb-4 md:mb-6 font-poppins text-black dark:text-white relative inline-block">
+    Important Announcements
+    <motion.div
+      className="absolute -bottom-2 left-0 h-2 bg-yellow-400 rounded-full"
+      initial={{ width: 0 }}
+      animate={{ width: "100%" }}
+      transition={{ duration: 0.8, delay: 0.2 }}
+    />
+  </h2>
+
+  <div
+    className="relative"
+    onMouseEnter={() => setIsHovering(true)}
+    onMouseLeave={() => setIsHovering(false)}
+  >
+    <AnimatePresence mode="wait">
+      <motion.div
+        key={currentAnnouncement}
+        initial={{ opacity: 0, x: 50 }}
+        animate={{ opacity: 1, x: 0 }}
+        exit={{ opacity: 0, x: -50 }}
+        className="relative overflow-hidden rounded-xl border-2 border-black dark:border-gray-600 min-h-[240px] md:min-h-[280px] flex flex-col justify-between"
+        style={{
+          backgroundImage: `url(${announcements[currentAnnouncement].image})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        {/* Dark Overlay */}
+        <div className="absolute inset-0 bg-black/75"></div>
+
+        {/* Content */}
+        <div className="relative z-10 p-8 md:p-10 h-full flex flex-col max-w-3xl">
+          <div>
+            <h3 className="text-white text-xl md:text-2xl font-semibold mb-2 md:mb-3 font-poppins">
+              {announcements[currentAnnouncement].title}
+            </h3>
+
+            <p className="text-gray-100 text-sm sm:text-base md:text-lg leading-relaxed">
+              {announcements[currentAnnouncement].content}
+            </p>
           </div>
+
+          {announcements[currentAnnouncement].link && (
+            <Link
+              href={announcements[currentAnnouncement].link}
+              className="inline-flex items-center mt-auto pt-6 text-yellow-300 hover:text-yellow-200 font-semibold text-base md:text-lg transition-colors"
+            >
+              View Committee
+              <ExternalLink className="ml-2 h-4 w-4 md:h-5 md:w-5" />
+            </Link>
+          )}
         </div>
-      </section>
+      </motion.div>
+    </AnimatePresence>
+
+    {/* Navigation controls */}
+    <div className="flex justify-between mt-3 md:mt-4">
+      <motion.button
+        onClick={() => handleAnnouncementNavigation("prev")}
+        className="bg-black dark:bg-white text-white dark:text-black p-1 md:p-2 rounded-lg border-2 border-black dark:border-white"
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
+      >
+        <ArrowLeft className="h-5 w-5 md:h-6 md:w-6" />
+      </motion.button>
+
+      <div className="flex space-x-2">
+        {announcements.map((_, index) => (
+          <motion.button
+            key={index}
+            onClick={() => {
+              setCurrentAnnouncement(index);
+              startAnnouncementTimer();
+            }}
+            className={`h-2 w-2 md:h-3 md:w-3 rounded-full border border-black dark:border-white ${
+              currentAnnouncement === index
+                ? "bg-blue-500 dark:bg-purple-500"
+                : "bg-gray-300 dark:bg-gray-600"
+            }`}
+            whileHover={{ scale: 1.2 }}
+          />
+        ))}
+      </div>
+
+      <motion.button
+        onClick={() => handleAnnouncementNavigation("next")}
+        className="bg-black dark:bg-white text-white dark:text-black p-1 md:p-2 rounded-lg border-2 border-black dark:border-white"
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
+      >
+        <ArrowRight className="h-5 w-5 md:h-6 md:w-6" />
+      </motion.button>
+    </div>
+  </div>
+</section>
 
       {/* Achievements Section */}
       <section className="p-4 md:p-8 rounded-2xl border-4 border-black dark:border-gray-700 bg-white dark:bg-gray-800 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] dark:shadow-[8px_8px_0px_0px_rgba(255,255,255,0.2)]">
