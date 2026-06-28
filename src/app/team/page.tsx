@@ -25,9 +25,9 @@ const getRolePriority = (role: string) => {
       return 1
     case "Vice President":
       return 2
-    case "Administrator":
-      return 3
     case "Advisor":
+      return 3
+    case "Administrator":
       return 4
     case "Social Media Lead":
       return 5
@@ -65,7 +65,12 @@ const sortedTeamMembers = [...teamMembers].sort((a, b) => {
   if (yearPriorityDiff !== 0) return yearPriorityDiff
 
   // If same role and year, sort by name
-  return a.name.localeCompare(b.name)
+  if (a.role === "Vice President" && b.role === "Vice President") {
+  if (a.name === "Mohamed Melhan K O") return -1;
+  if (b.name === "Mohamed Melhan K O") return 1;
+}
+
+return a.name.localeCompare(b.name);
 })
 
 export default function Team() {
