@@ -70,7 +70,7 @@ export const teamMembers: TeamMember[] = [
     role: "Vice President",
     department: "Artificial Intelligence and Data Science",
     year: "IV",
-    image: "https://res.cloudinary.com/douhcccb7/image/upload/v1739634425/WhatsApp_Image_2025-02-15_at_6.12.28_PM_gnbkmu.jpg",
+    image: "https://res.cloudinary.com/drgwlnf67/image/upload/v1782659638/melhan_sedtgb.jpg",
     linkedin: "https://www.linkedin.com/in/mohamed-melhan-k-o-1bb3872a6",
   },
   {
@@ -174,7 +174,7 @@ export const teamMembers: TeamMember[] = [
     role: "Advisor",
     department: "Artificial Intelligence and Data Science",
     year: "III",
-    image: "https://res.cloudinary.com/dkkwzmq9j/image/upload/v1775242757/WhatsApp_Image_2026-04-04_at_00.28.19_yeeivy.jpg",
+    image: "https://res.cloudinary.com/drgwlnf67/image/upload/v1782659637/advisor_lz99kh.jpg",
     linkedin: "https://www.linkedin.com/in/raja-rajeswari-srinivasan-10711b3b0",
   },
   {
@@ -182,7 +182,7 @@ export const teamMembers: TeamMember[] = [
     role: "Member",
     department: "Information Technology",
     year: "III",
-    image: "https://res.cloudinary.com/ddnp2f5jj/image/upload/v1775237222/PHOTO-2026-04-03-22-43-10_sqfz1i.jpg",
+    image: "https://res.cloudinary.com/drgwlnf67/image/upload/v1782659637/affan_jnnr58.jpg",
     linkedin: "https://www.linkedin.com/in/affanbasha",
   },
   {
