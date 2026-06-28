@@ -141,7 +141,7 @@ const BlogSection = () => {
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      className="text-center py-8 md:py-16 px-4 bg-white dark:bg-gray-900 rounded-lg border-2 border-black dark:border-gray-700"
+      className="text-center py-6 md:py-10 px-4 bg-white dark:bg-gray-900 rounded-lg border-2 border-black dark:border-gray-700"
     >
       <motion.div
         animate={{ 
@@ -157,22 +157,27 @@ const BlogSection = () => {
       >
         <Sparkles className="w-12 h-12 md:w-16 md:h-16 text-blue-500 dark:text-yellow-400" />
       </motion.div>
-      <h3 className="text-xl md:text-2xl font-bold mb-3 md:mb-4 text-black dark:text-white">No Articles Yet! ✨</h3>
-      <p className="text-sm md:text-base text-gray-600 dark:text-gray-400 mb-2">
-        We're cooking up something amazing! 🚀
-      </p>
-      <p className="text-xs md:text-sm text-gray-500 dark:text-gray-400">
-        Stay tuned for exciting content coming your way! 🌟
-      </p>
+      <h3 className="text-xl md:text-2xl font-bold mb-3 md:mb-4 text-black dark:text-white">
+  🚀 SGC Updates Coming Soon
+</h3>
+
+<p className="text-sm md:text-base text-gray-600 dark:text-gray-400 mb-2">
+  SGC activities for the 2026–27 academic year have begun.
+</p>
+
+<p className="text-xs md:text-sm text-gray-500 dark:text-gray-400">
+  Regular updates, event highlights, and important announcements will be available here soon.
+</p>
     </motion.div>
   );
 
   return (
     <section className="bg-white dark:bg-gray-900 p-4 md:p-8 rounded-lg border-2 border-black dark:border-gray-700 space-y-4 md:space-y-8">
       <div className="flex justify-between items-center mb-4 md:mb-8">
-        <h2 className="text-xl md:text-3xl font-bold font-poppins text-black dark:text-white">
-          Latest from our Blog
+        <h2 className="text-lg md:text-3xl font-bold font-poppins text-black dark:text-white">
+          This Week at SGC
         </h2>
+        {/*
         <Link 
           href="https://medium.com/@sgc-cahcet"
           className="group flex items-center gap-1 md:gap-2 text-sm md:text-base text-blue-600 dark:text-blue-400 hover:underline"
@@ -185,8 +190,9 @@ const BlogSection = () => {
             <ArrowRight className="h-3 w-3 md:h-4 md:w-4" />
           </motion.span>
         </Link>
+        */}
       </div>
-
+          
       {/* Mobile scroll controls - only show when not loading and has posts */}
       {!isLoading && blogPosts.length > 0 && (
         <div className="flex md:hidden justify-between mb-3">
