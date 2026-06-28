@@ -1,5 +1,4 @@
 "use client"
-
 import { motion, AnimatePresence } from "framer-motion"
 import { useEffect, useState, useRef } from "react"
 import { ChevronRight, ArrowRight, ArrowLeft, ExternalLink } from "lucide-react"
@@ -19,7 +18,8 @@ interface Achievement {
 interface Announcement {
   title: string
   content: string
-  link?: string 
+  image: string
+  link?: string
 }
 
 const Home: React.FC = () => {
@@ -32,10 +32,22 @@ const Home: React.FC = () => {
   const achievementsRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
-    setMounted(true)
-    
-    startAnnouncementTimer()
-    startAchievementTimer()
+  setMounted(true)
+
+  // Preload announcement images
+  Promise.all(
+  announcements.map((announcement) => {
+    return new Promise<void>((resolve) => {
+      const img = new window.Image();
+      img.src = announcement.image;
+      img.onload = () => resolve();
+      img.onerror = () => resolve();
+    });
+  })
+);
+
+  startAnnouncementTimer()
+  startAchievementTimer()
     
     return () => {
       if (announcementTimerRef.current) {
@@ -165,24 +177,25 @@ const Home: React.FC = () => {
     onMouseEnter={() => setIsHovering(true)}
     onMouseLeave={() => setIsHovering(false)}
   >
-    <AnimatePresence mode="wait">
       <motion.div
-        key={currentAnnouncement}
-        initial={{ opacity: 0, x: 50 }}
-        animate={{ opacity: 1, x: 0 }}
-        exit={{ opacity: 0, x: -50 }}
-        className="relative overflow-hidden rounded-xl border-2 border-black dark:border-gray-600 min-h-[240px] md:min-h-[280px] flex flex-col justify-between"
-        style={{
-          backgroundImage: `url(${announcements[currentAnnouncement].image})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
+  className="relative overflow-hidden rounded-xl border-2 border-black dark:border-gray-600 min-h-[240px] md:min-h-[280px] flex flex-col justify-between"
+  style={{
+    backgroundImage: `url(${announcements[currentAnnouncement].image})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  }}
+>
         {/* Dark Overlay */}
         <div className="absolute inset-0 bg-black/75"></div>
 
         {/* Content */}
-        <div className="relative z-10 p-8 md:p-10 h-full flex flex-col max-w-3xl">
+        <motion.div
+  key={currentAnnouncement}
+  initial={{ opacity: 0, y: 15 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.35 }}
+  className="relative z-10 p-8 md:p-10 h-full flex flex-col max-w-3xl"
+>
           <div>
             <h3 className="text-white text-xl md:text-2xl font-semibold mb-2 md:mb-3 font-poppins">
               {announcements[currentAnnouncement].title}
@@ -202,9 +215,8 @@ const Home: React.FC = () => {
               <ExternalLink className="ml-2 h-4 w-4 md:h-5 md:w-5" />
             </Link>
           )}
-        </div>
+        </motion.div>
       </motion.div>
-    </AnimatePresence>
 
     {/* Navigation controls */}
     <div className="flex justify-between mt-3 md:mt-4">
