@@ -4,7 +4,7 @@ export const announcements = [
   {
     title: "🚀 SGC Sessions 2026–27 Commencing from 29 June 2026",
     content:
-      "The Student Guidance Cell officially begins its 2026–27 activities from 29 June 2026 with technical, communication, and career development sessions.",
+      "SGC officially begins its 2026–27 activities on 29 June with technical, communication, and career development sessions.",
     image: "/announcements/session.jpg",
     link: "",
   },
@@ -36,7 +36,7 @@ export const announcements = [
   {
     title: "📅 Tentative SGC Academic Plan 2026–27 Released",
     content:
-      "The tentative schedule for workshops, technical sessions, communication sessions, Revibe 2K26, Hackathon, and other activities has been prepared.",
+       "The tentative schedule for workshops, sessions, Revibe 2K26, Hackathon, and other SGC activities has been released.",
     image: "/announcements/academic.jpg",
     link: "",
   },
