@@ -33,19 +33,6 @@ const Home: React.FC = () => {
 
   useEffect(() => {
   setMounted(true)
-
-  // Preload announcement images
-  Promise.all(
-  announcements.map((announcement) => {
-    return new Promise<void>((resolve) => {
-      const img = new window.Image();
-      img.src = announcement.image;
-      img.onload = () => resolve();
-      img.onerror = () => resolve();
-    });
-  })
-);
-
   startAnnouncementTimer()
   startAchievementTimer()
     
@@ -160,7 +147,6 @@ const Home: React.FC = () => {
       <HeroSection />
 
       {/* Important Announcements Section */}
-
 <section className="p-4 md:p-8 rounded-2xl border-4 border-black dark:border-gray-700 bg-white dark:bg-gray-800 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] dark:shadow-[8px_8px_0px_0px_rgba(255,255,255,0.2)]">
   <h2 className="text-3xl md:text-4xl font-bold mb-4 md:mb-6 font-poppins text-black dark:text-white relative inline-block">
     Important Announcements
@@ -177,46 +163,58 @@ const Home: React.FC = () => {
     onMouseEnter={() => setIsHovering(true)}
     onMouseLeave={() => setIsHovering(false)}
   >
-      <motion.div
-  className="relative overflow-hidden rounded-xl border-2 border-black dark:border-gray-600 min-h-[240px] md:min-h-[280px] flex flex-col justify-between"
-  style={{
-    backgroundImage: `url(${announcements[currentAnnouncement].image})`,
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-  }}
->
-        {/* Dark Overlay */}
-        <div className="absolute inset-0 bg-black/75"></div>
-
-        {/* Content */}
+    {/* Fixed-height container — all cards stack inside here */}
+    <div className="relative overflow-hidden rounded-xl border-2 border-black dark:border-gray-600 min-h-[280px] md:min-h-[280px]">
+      {announcements.map((announcement: Announcement, index: number) => (
         <motion.div
-  key={currentAnnouncement}
-  initial={{ opacity: 0, y: 15 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.35 }}
-  className="relative z-10 p-8 md:p-10 h-full flex flex-col max-w-3xl"
->
-          <div>
-            <h3 className="text-white text-xl md:text-2xl font-semibold mb-2 md:mb-3 font-poppins">
-              {announcements[currentAnnouncement].title}
-            </h3>
+          key={index}
+          className="absolute inset-0 flex flex-col justify-between"
+          animate={{
+            opacity: currentAnnouncement === index ? 1 : 0,
+            scale: currentAnnouncement === index ? 1 : 0.98,
+          }}
+          transition={{ duration: 0.45, ease: "easeInOut" }}
+          style={{
+            pointerEvents: currentAnnouncement === index ? "auto" : "none",
+          }}
+        >
+          {/* Background Image */}
+          <Image
+            src={announcement.image}
+            alt={announcement.title}
+            fill
+            priority={index === 0}
+            sizes="100vw"
+            className="absolute inset-0 object-cover"
+          />
 
-            <p className="text-gray-100 text-sm sm:text-base md:text-lg leading-relaxed">
-              {announcements[currentAnnouncement].content}
-            </p>
+          {/* Dark Overlay */}
+          <div className="absolute inset-0 bg-black/75" />
+
+          {/* Content */}
+          <div className="relative z-10 p-8 md:p-10 h-full flex flex-col max-w-3xl">
+            <div>
+              <h3 className="text-white text-xl md:text-2xl font-semibold mb-2 md:mb-3 font-poppins">
+                {announcement.title}
+              </h3>
+              <p className="text-gray-100 text-sm sm:text-base md:text-lg leading-relaxed">
+                {announcement.content}
+              </p>
+            </div>
+
+            {announcement.link && (
+              <Link
+                href={announcement.link}
+                className="inline-flex items-center mt-auto pt-6 text-yellow-300 hover:text-yellow-200 font-semibold text-base md:text-lg transition-colors"
+              >
+                View Committee
+                <ExternalLink className="ml-2 h-4 w-4 md:h-5 md:w-5" />
+              </Link>
+            )}
           </div>
-
-          {announcements[currentAnnouncement].link && (
-            <Link
-              href={announcements[currentAnnouncement].link}
-              className="inline-flex items-center mt-auto pt-6 text-yellow-300 hover:text-yellow-200 font-semibold text-base md:text-lg transition-colors"
-            >
-              View Committee
-              <ExternalLink className="ml-2 h-4 w-4 md:h-5 md:w-5" />
-            </Link>
-          )}
         </motion.div>
-      </motion.div>
+      ))}
+    </div>
 
     {/* Navigation controls */}
     <div className="flex justify-between mt-3 md:mt-4">
@@ -230,7 +228,7 @@ const Home: React.FC = () => {
       </motion.button>
 
       <div className="flex space-x-2">
-        {announcements.map((_, index) => (
+        {announcements.map((_: Announcement, index: number) => (
           <motion.button
             key={index}
             onClick={() => {
