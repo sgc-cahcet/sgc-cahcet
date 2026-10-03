@@ -1,6 +1,24 @@
 export const events = [
   // Add the Events with respect to date format of (YYYY-MM-DD) Ex. "2025-02-02"
-    {
+  {
+    name: "Revibe ’26",
+    description:
+      "Revibe ’26, the National Level Technical Symposium organized by the Student Guidance Cell (SGC) of C. Abdul Hakeem College of Engineering and Technology, was successfully conducted on September 12, 2026. The symposium featured a mix of technical events including Paper Presentation, Mini Hackathon, Coding & Debugging, Technical Quiz, Shark Tank × SGC, and Prompt Wars, along with non-technical events such as Chess, Connections, Mehendi, Art & Painting, Free Fire, Cooking Without Fire, and IPL Auction. The event brought students together to showcase their skills, creativity, innovation, and competitive spirit.",
+    date: "2026-09-12",
+    image: "https://res.cloudinary.com/dnbifmfhl/image/upload/v1790954197/group_photo_revibe_drcs1j.jpg",
+    link: "https://www.linkedin.com/feed/update/urn:li:activity:7512072936862740480/",
+  },
+
+  {
+    name: "India Unbound",
+    description:
+      "India Unbound was an Intra Competition organized by the Student Guidance Cell to celebrate Independence Day through the voices, ideas, creativity, and perspectives of students. Held from August 17 to 19, 2026, the competition featured Speech, Debate, and Art & Drawing events centered around themes of India's future, youth leadership, innovation, technology, development, and nation-building. Participants had the opportunity to express their ideas, engage in healthy debate, and showcase their creativity while reflecting on the role of today's youth in shaping a stronger and brighter India.",
+    date: "2026-08-17",
+    image: "https://res.cloudinary.com/dnbifmfhl/image/upload/v1791025945/WhatsApp_Image_2026-10-02_at_9.12.49_PM_p136qu.jpg",
+    link: "",
+  },
+
+  {
     name: "EXAGENT AI",
     description:
       "We successfully conducted ExAgent AI – Exploring Agentic AI Beyond Chatbots, an insightful workshop led by Mr. Hrithik, Software Developer at Merida Tech Minds. Through this session, we explored AI Agents, Multi-Agent Systems, Prompt Engineering, AI-powered applications, real-world industry use cases, and career opportunities in Artificial Intelligence. The workshop provided participants with valuable practical exposure to emerging AI technologies and helped us gain a better understanding of how Agentic AI is shaping the future of technology.",
