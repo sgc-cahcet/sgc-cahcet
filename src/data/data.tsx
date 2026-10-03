@@ -1,8 +1,17 @@
 export const announcements = [
   {
+    title: "🎉 Revibe ’26 — Successfully Completed!",
+    content:
+      "Thank you to everyone who participated and helped make Revibe ’26 a grand success!",
+    image: "/announcements/revibe-poster.jpg",
+    link: "/events",
+    linkText: "View Details",
+  },
+
+  {
     title: "🎓 Knowledge Transfer (KT) Session Initiative",
     content:
-  "SGC launches the Knowledge Transfer (KT) Session Initiative for hands-on learning in modern technologies.",
+      "SGC launches the Knowledge Transfer (KT) Session Initiative for hands-on learning in modern technologies.",
     image: "/announcements/kt_session.jpg",
     link: "",
   },
@@ -10,7 +19,7 @@ export const announcements = [
   {
     title: "📝 Introducing the SGC Session Summary Document",
     content:
-  "Session Summary Documents will be shared after every SGC session for quick revision and easy learning.",
+      "Session Summary Documents will be shared after every SGC session for quick revision and easy learning.",
     image: "/announcements/session-summary.jpg",
     link: "",
   },
@@ -21,14 +30,7 @@ export const announcements = [
       "Meet the newly appointed office bearers and committee members for the academic year 2026–27.",
     image: "/announcements/committee.jpg",
     link: "/team",
-  },
-
-  {
-    title: "🎉 Revibe 2K26 – Stay Tuned!",
-    content:
-      "Preparations are underway for Revibe 2K26, the official symposium of the Student Guidance Cell. Exciting updates coming soon.",
-    image: "/announcements/revibe.jpg",
-    link: "",
+    linkText: "View Committee",
   },
 
   {
@@ -47,9 +49,25 @@ export const announcements = [
     link: "",
   },
 ];
-  
-  
-  export const achievements = [
+
+
+export const achievements = [
+  {
+    image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1791032149/IMG-20261003-WA0059_yz9nn0.jpg",
+    heading: "Zahangir & Yasar of Our SGC Won VIT Hackulus 2026",
+    description:
+      "Our SGC members Md. Zahangir and Md. Yasar, emerged as winners of VIT Hackulus 2026, a 24-hour hackathon held as part of VIT graVITas. The team developed CARDIA, an interactive 3D heart simulation combining 3D visualization, interactive heart anatomy, simulated blood flow, and an AI-powered RAG layer.",
+    link: "https://lnkd.in/p/dNEEEqsk",
+  },
+
+  {
+    image: "https://res.cloudinary.com/dnbifmfhl/image/upload/v1791033173/yuva_zxxtql.jpg",
+    heading: "SGC Members Shine at Yuva Future 6.0",
+    description:
+      "Samiiksha, Md. Zakwan Haaziq, Pooja Sri, and Afra Naushine — SGC members who represented their teams at Yuva Future 6.0. Samiiksha and Md. Zakwan Haaziq emerged as winners at the Vellore Regional Level in the Health vertical with SAHARA, a mental health support system designed to make student support more accessible and stigma-free. Pooja Sri and Afra Naushine were selected from the Vellore Regional Level in the Road Safety vertical with Golden 60, a bystander-response system focused on helping people take the right action during the crucial Golden Hour after a road accident. Both teams advanced to the National Level and represented Vellore alongside teams from across Tamil Nadu.",
+    link: "https://lnkd.in/p/d6y6Fe8i",
+  },
+
   {
     image: "https://res.cloudinary.com/dbqjkjl0c/image/upload/v1783163820/recruitpic_nc2kza.jpg",
     heading: "SGC Recruitment Drive – March 2026 Witnessed 100+ Student Participation",
@@ -106,5 +124,4 @@ export const announcements = [
     link: "https://www.linkedin.com/posts/studentguidancecell-cahcet_sgc-mitacs-globalinkresearchinternship-activity-7183355849916968961-mhwW?utm_source=social_share_send&utm_medium=member_desktop_web",
   },
 ];
-  
-  
+
